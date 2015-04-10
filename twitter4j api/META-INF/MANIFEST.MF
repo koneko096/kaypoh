@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bundle-Vendor: Yusuke Yamamoto
+Implementation-Title: twitter4j-examples
+Implementation-Version: 4.0.3
+Implementation-Vendor-Id: org.twitter4j
+Built-By: yusuke
+Build-Jdk: 1.7.0_65
+Specification-Title: twitter4j-examples
+Created-By: Apache Maven
+Specification-Version: 4.0.3
+Main-Class: twitter4j.examples.ExamplesVersion
+Archiver-Version: Plexus Archiver
+
