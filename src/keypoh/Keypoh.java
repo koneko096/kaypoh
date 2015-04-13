@@ -6,6 +6,7 @@
 package keypoh;
 
 import java.util.List;
+import java.util.LinkedList;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
@@ -21,7 +22,7 @@ public class Keypoh {
      * @param args String[]
      */
     public static void main(String[] args) {
-        facebook4j.conf.ConfigurationBuilder config = new facebook4j.conf.ConfigurationBuilder();
+		facebook4j.conf.ConfigurationBuilder config = new facebook4j.conf.ConfigurationBuilder();
         config
             .setDebugEnabled(true)
 //            .setHttpProxyHost("cache2.itb.ac.id")
@@ -40,4 +41,12 @@ public class Keypoh {
             Logger.getLogger(Keypoh.class.getName()).log(Level.SEVERE, null, ex);
         }
     }
+    
+    public static List<String> parse(String s) {
+		List<String> l = new LinkedList<>();
+		for (String p : s.split("\\+")) {
+			l.add(p);
+		}
+		return l;
+	}
 }
