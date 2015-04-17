@@ -19,25 +19,33 @@ import twitter4j.conf.*;
  */
 public class TwitterCrawler {
     private Twitter tw;
-    private final Paging page = new Paging(1, 200);
+    private int limit = 100;
+//    private final Paging page = new Paging(1, 200);
+    
     private final AccessToken token = new AccessToken(
         "94018147-mpvS450PWyQ9lB23gWFG4qxHcfeAQhGWEXAQnKgYa",
         "b7hWuibWoSNjEjZ0T7jBoFF0OxUVxOFBy4IynmuL0iI69"
     );
     
-    TwitterCrawler(ConfigurationBuilder config) {
+    TwitterCrawler(ConfigurationBuilder config) throws Exception {
         tw = new TwitterFactory(config.build()).getInstance();
         tw.setOAuthConsumer("4Fe696sYfk2pZjmmncAaZJQUR", "F25etIib277GtJDK5qIXzC8N4YdZ3Fh8w7Bg2otwqt2EDHQabj");
-        tw.setOAuthAccessToken(token);
+//        tw.setOAuthAccessToken(token);
+        OAuth2Token tok = tw.getOAuth2Token();
     }
     
-    public List getTimeline() throws TwitterException {
+    public List getTimeline(String key) throws Exception {
         List<String> ans = new LinkedList();
-        List<Status> tweets = tw.getHomeTimeline(page);
+        Query query = new Query(key);
+        query.setCount(limit);
+        QueryResult res = tw.search(query);
         
-        tweets.stream().filter((tweet) -> (tweet.getText() != null)).forEach((tweet) -> {
-            ans.add(tweet.getText());
-        });
+        List<Status> tweets = res.getTweets();
+        for (Status tweet : tweets) {
+            if (tweet.getText() != null) {
+                ans.add(tweet.getText());
+            }
+        }
             
         return ans;
     }

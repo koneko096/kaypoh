@@ -20,13 +20,12 @@ import facebook4j.conf.*;
 public class FacebookCrawler {
     private Facebook fb;
     private final Reading page = new Reading().limit(200);
-    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAHqvInx5BWX9etcALMu4tPo97VriZC6etBYhZBGoRbpTigS77OZCZANfmpYZAEggMxmpZBSAiOrR8iqenA9FZCctGZBJn4OTZBoJc2ZAlhqNIpQZCTKhYdABujZAr8bGAxrWRmZCFLBEEqR8CBCZBfy0Q6B5wFZC9KZCrRHZBgd0OZAZCmPfluaMCyEBOeAGmD9fGTZBOBYbFbjYnzjDntpN");
+    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAJkhesljqt8ywJAkZCzZBvohvZCexHMxYFf1RucExRV1oVAAW1LY90ij3yMYMA546whEZCbXgc7RvS4LzXOHPCbI18aXbKhd5RDoMMRpOjt0HqPdOsHl2roThLuOkh4ZBjrcHRwZBnBibdZA0fIjo2RSnX9QzAoFB8arOXPNOuukZB3i7R54SfgCPByIettZAEc54ZAlcddNPQ");
     
     FacebookCrawler(ConfigurationBuilder config) {
         fb = new FacebookFactory(config.build()).getInstance();
         fb.setOAuthAppId("824284154322542", "a3fcb10ae1498c7872cd441fbb6b6220");
         fb.setOAuthAccessToken(token);
-        System.out.println(token);
     }
     
     public List getTimeline() throws FacebookException {

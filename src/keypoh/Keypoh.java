@@ -5,10 +5,9 @@
  */
 package keypoh;
 
+import java.util.Arrays;
 import java.util.List;
 import java.util.LinkedList;
-import java.util.logging.Level;
-import java.util.logging.Logger;
 
 /**
  * Kaypoh
@@ -22,9 +21,10 @@ public class Keypoh {
      * @param args String[]
      */
     public static void main(String[] args) {
-		facebook4j.conf.ConfigurationBuilder config = new facebook4j.conf.ConfigurationBuilder();
+        twitter4j.conf.ConfigurationBuilder config = new twitter4j.conf.ConfigurationBuilder();
         config
             .setDebugEnabled(true)
+            .setApplicationOnlyAuthEnabled(true)
 //            .setHttpProxyHost("cache2.itb.ac.id")
 //            .setHttpProxyUser("afrizal_f")
 //            .setHttpProxyPassword("R1zal96@itb")
@@ -32,21 +32,19 @@ public class Keypoh {
             ;
         
         try {
-            List<String> query = new FacebookCrawler(config).getTimeline();
+            List<String> query = new TwitterCrawler(config).getTimeline("hobiku");
             
             query.stream().forEach((tweet) -> {
                 System.out.println(tweet);
             });
         } catch (Exception ex) {
-            Logger.getLogger(Keypoh.class.getName()).log(Level.SEVERE, null, ex);
+            ex.printStackTrace();
         }
     }
     
-    public static List<String> parse(String s) {
+    public static List<String> parse(String s, String regex) {
 		List<String> l = new LinkedList<>();
-		for (String p : s.split("\\+")) {
-			l.add(p);
-		}
+                l.addAll(Arrays.asList(s.split(regex)));
 		return l;
 	}
 }
