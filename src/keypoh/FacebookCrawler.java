@@ -19,7 +19,7 @@ import facebook4j.conf.*;
  */
 public class FacebookCrawler {
     private Facebook fb;
-    private final Reading page = new Reading().limit(200);
+    private final Reading page = new Reading().limit(100);
     private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAJkhesljqt8ywJAkZCzZBvohvZCexHMxYFf1RucExRV1oVAAW1LY90ij3yMYMA546whEZCbXgc7RvS4LzXOHPCbI18aXbKhd5RDoMMRpOjt0HqPdOsHl2roThLuOkh4ZBjrcHRwZBnBibdZA0fIjo2RSnX9QzAoFB8arOXPNOuukZB3i7R54SfgCPByIettZAEc54ZAlcddNPQ");
     
     FacebookCrawler(ConfigurationBuilder config) {
@@ -28,13 +28,15 @@ public class FacebookCrawler {
         fb.setOAuthAccessToken(token);
     }
     
-    public List getTimeline() throws FacebookException {
+    public List getTimeline(String key) throws Exception {
         List<String> ans = new LinkedList();
-        List<Post> statuses = fb.getHome(page);
+        List<Post> statuses = fb.searchPosts(key, page);
         
-        statuses.stream().filter((status) -> (status.getMessage() != null)).forEach((status) -> {
-            ans.add(status.getMessage());
-        });
+        for (Post status : statuses) {
+            if (status.getMessage() != null) {
+                ans.add(status.getMessage());
+            }
+        }
             
         return ans;
     }

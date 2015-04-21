@@ -19,9 +19,7 @@ import twitter4j.conf.*;
  */
 public class TwitterCrawler {
     private Twitter tw;
-    private int limit = 100;
-//    private final Paging page = new Paging(1, 200);
-    
+    private final int limit = 100;    
     private final AccessToken token = new AccessToken(
         "94018147-mpvS450PWyQ9lB23gWFG4qxHcfeAQhGWEXAQnKgYa",
         "b7hWuibWoSNjEjZ0T7jBoFF0OxUVxOFBy4IynmuL0iI69"
