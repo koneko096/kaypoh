@@ -75,6 +75,8 @@ public class Keypoh {
                         }
                         list.add(content);
                         searchResult.put(keyword, list);
+                        
+                        categorized = true;
                         break;
                     }
                 }
@@ -96,12 +98,22 @@ public class Keypoh {
         for (String category : categories) {
             List<String> results = searchResult.get(category);
             
-            System.out.println("Kategori " + category + ":");
+            System.out.println("Kategori " + category + " :");
+            System.out.println("Banyak post : " + results.size());
             for (String result : results) {
                 System.out.println(result);
             }
             System.out.println();
         }
+        
+        /* Khusus untuk kategori unknown */
+        System.out.println("Kategori unknown :");
+        List<String> results = searchResult.get("unknown");
+        System.out.println("Banyak post : " + results.size());
+        for (String result : results) {
+            System.out.println(result);
+        }
+        System.out.println();
     }
     
     /**
