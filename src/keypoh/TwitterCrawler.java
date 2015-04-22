@@ -20,19 +20,33 @@ import twitter4j.conf.*;
 public class TwitterCrawler {
     private Twitter tw;
     private final int limit = 100;    
+    /*
     private final AccessToken token = new AccessToken(
         "94018147-mpvS450PWyQ9lB23gWFG4qxHcfeAQhGWEXAQnKgYa",
         "b7hWuibWoSNjEjZ0T7jBoFF0OxUVxOFBy4IynmuL0iI69"
     );
+    */
     
+    /**
+     * Constructor
+     * @param config
+     * @throws Exception 
+     */
     TwitterCrawler(ConfigurationBuilder config) throws Exception {
+        Configure(config);
         tw = new TwitterFactory(config.build()).getInstance();
         tw.setOAuthConsumer("4Fe696sYfk2pZjmmncAaZJQUR", "F25etIib277GtJDK5qIXzC8N4YdZ3Fh8w7Bg2otwqt2EDHQabj");
 //        tw.setOAuthAccessToken(token);
         OAuth2Token tok = tw.getOAuth2Token();
     }
     
-    public List getTimeline(String key) throws Exception {
+    /**
+     * Function getTimeline
+     * @param key
+     * @return List
+     * @throws Exception 
+     */
+    private List getTimeline(String key) throws Exception {
         List<String> ans = new LinkedList();
         Query query = new Query(key);
         query.setCount(limit);
@@ -46,5 +60,47 @@ public class TwitterCrawler {
         }
             
         return ans;
+    }
+    
+    /**
+     * Procedure Call
+     * Call Twitter API
+     * 
+     * @param args
+     * @return List
+     * @throws Exception 
+     */
+    public List Call(String[] args) throws Exception {
+        List<String> query = null;
+        try {
+            query = 
+                getTimeline(
+                    Keypoh.QueryGenerator(args[3],0)
+                );
+            
+            query.stream().forEach((tweet) -> {
+                System.out.println(tweet);
+            });
+        } finally {
+            return query;
+        }
+    }
+    
+    /**
+     * Procedure Configure
+     * Configure Twitter API
+     * 
+     * @param config 
+     */
+    private void Configure(
+        twitter4j.conf.ConfigurationBuilder config) {
+        config
+            .setDebugEnabled(true)
+            .setApplicationOnlyAuthEnabled(true)
+//            .setHttpProxyHost("cache2.itb.ac.id")
+//            .setHttpProxyUser("afrizal_f")
+//            .setHttpProxyPassword("R1zal96@itb")
+//            .setHttpProxyPort(8080)
+            ;
     }
 }

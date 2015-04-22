@@ -5,23 +5,102 @@
  */
 package keypoh;
 
-import java.util.List;
-import java.util.LinkedList;
+import java.util.*;
+import static java.util.Arrays.asList;
+import StringMatching.*;
 
 /**
  * Kaypoh
  * @author ical
  */
 public class Keypoh {
+    private static List<String> topics = asList("topic1", "topic2", "topic3");
+    private static List< List<String> > topicCategories = asList(
+        asList("categ11", "categ12", "categ13"),
+        asList("categ21", "categ22", "categ23"),
+        asList("categ31", "categ32", "categ33")
+    );
+    private static List<String> categories;
+    private static Map<String, List<String> > searchResult = new HashMap();
+        
     /**
      * Driver
+     * arguments : api_used matching_method topic tags keywords
      * @param args String[]
+     * @throws java.lang.Exception
      */
-    public static void main(String[] args) {
-        if ("tw".equals(args[0])) {
-            CallTwitter(args);
+    public static void main(String[] args) throws Exception {
+        List<String> contents;
+        StringProcessor st;
+        
+        /* Get contents from API request */
+        if (args[0].equals("tw")) {
+            twitter4j.conf.ConfigurationBuilder config;
+            config = new twitter4j.conf.ConfigurationBuilder();
+            contents = new TwitterCrawler(config).Call(args);
         } else {
-            CallFacebook(args);
+            facebook4j.conf.ConfigurationBuilder config;
+            config = new facebook4j.conf.ConfigurationBuilder();
+            contents = new FacebookCrawler(config).Call(args);
+        }
+        
+        /* Set matching method */
+        if (args[1].equals("bm")) {
+            st = new BoyerMoore();
+        } else {
+            st = new KnuthMorrisPratt();
+        }
+        
+        /* Set categories from given topic */
+        for (int i = 0; i < topics.size(); ++i) {
+            if (topics.get(i).equals(args[2])) {
+                categories = topicCategories.get(i);
+                break;
+            }
+        }
+        
+        /* Categorize each content */
+        for (String content : contents) {
+            boolean categorized = false;
+                
+            for (int i = 4; i < args.length && !categorized; ++i) {
+                List<String> keywords = parse(args[i], ",");
+                
+                for (String keyword : keywords) {
+                    st.setPattern(keyword);
+                    if (st.search(content)) {
+                        List<String> list = searchResult.get(categories.get(i - 4));
+                        if (list == null) {
+                            list = new LinkedList<>();
+                        }
+                        list.add(content);
+                        searchResult.put(keyword, list);
+                        break;
+                    }
+                }
+            }
+            
+            /* unknown category */
+            if (!categorized) {
+                List<String> list = searchResult.get("unknown");
+                if (list == null) {
+                    list = new LinkedList<>();
+                }
+                list.add(content);
+                searchResult.put("unknown", list);
+                break;
+            }
+        }
+        
+        /* Print result */
+        for (String category : categories) {
+            List<String> results = searchResult.get(category);
+            
+            System.out.println("Kategori " + category + ":");
+            for (String result : results) {
+                System.out.println(result);
+            }
+            System.out.println();
         }
     }
     
@@ -30,12 +109,12 @@ public class Keypoh {
      * Parsing string to string list
      * 
      * @param s
-     * @param regex
+     * @param delim
      * @return List<String>
      */
-    private static List<String> parse(String s, String regex) {
+    private static List<String> parse(String s, String delim) {
         List<String> l = new LinkedList<>();
-        for (String ss : s.split(regex)) {
+        for (String ss : s.split(delim)) {
             if (ss != null) {
                 l.add(ss);
             }
@@ -44,75 +123,26 @@ public class Keypoh {
     }
     
     /**
-     * Procedure CallTwitter
-     * Call Twitter API
+     * String QueryGenerator
+     * Adjust multi queries to API call argument
      * 
-     * @param args 
+     * @param key
+     * @param param
+     * @return String
      */
-    private static void CallTwitter(String[] args) {
-        twitter4j.conf.ConfigurationBuilder config = new twitter4j.conf.ConfigurationBuilder();
-        ConfigTwitter(config);
-        
-        try {
-            List<String> query = new TwitterCrawler(config).getTimeline(args[1]);
-            
-            query.stream().forEach((tweet) -> {
-                System.out.println(tweet);
-            });
-        } catch (Exception ex) {}
-    }
-    
-    /**
-     * Procedure ConfigTwitter
-     * Configure Twitter API
-     * 
-     * @param config 
-     */
-    private static void ConfigTwitter(
-        twitter4j.conf.ConfigurationBuilder config) {
-        config
-            .setDebugEnabled(true)
-            .setApplicationOnlyAuthEnabled(true)
-//            .setHttpProxyHost("cache2.itb.ac.id")
-//            .setHttpProxyUser("afrizal_f")
-//            .setHttpProxyPassword("R1zal96@itb")
-//            .setHttpProxyPort(8080)
-            ;
-    }
-    
-    /**
-     * Procedure CallFacebook
-     * Call Facebook API
-     * 
-     * @param args 
-     */
-    private static void CallFacebook(String[] args) {
-        facebook4j.conf.ConfigurationBuilder config = new facebook4j.conf.ConfigurationBuilder();
-        ConfigFacebook(config);
-        
-        try {
-            List<String> query = new FacebookCrawler(config).getTimeline(args[1]);
-            
-            query.stream().forEach((tweet) -> {
-                System.out.println(tweet);
-            });
-        } catch (Exception ex) {}
-    }
-    
-    /**
-     * Procedure ConfigFacebook
-     * Configure Facebook API
-     * 
-     * @param config 
-     */
-    private static void ConfigFacebook(
-        facebook4j.conf.ConfigurationBuilder config) {
-        config
-            .setDebugEnabled(true)
-//            .setHttpProxyHost("cache2.itb.ac.id")
-//            .setHttpProxyUser("afrizal_f")
-//            .setHttpProxyPassword("R1zal96@itb")
-//            .setHttpProxyPort(8080)
-            ;
+    public static String QueryGenerator(String key, int param) {
+        String q = "";
+        for (String s : parse(key, ",")) {
+            if (s != null) {
+                if (!q.equals("")) {
+                    switch (param) {
+                        case 0 : q += " OR "; break;
+                        case 1 : q += "+"; break;
+                    }
+                }
+                q += s;
+            }
+        }
+        return q;        
     }
 }

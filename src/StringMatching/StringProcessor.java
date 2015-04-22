@@ -19,4 +19,10 @@ public interface StringProcessor {
      * @return
      */
     public boolean search(String text);
+    
+    /**
+     * Procedure setPattern
+     * @param pat 
+     */
+    public void setPattern(String pat);
 }

@@ -18,19 +18,7 @@ public class BoyerMoore implements StringProcessor {
      * Constructor
      * @param pat 
      */
-    public BoyerMoore(String pat) {
-        this.R = 256;
-        this.pat = pat;
-
-        // position of rightmost occurrence of c in the pattern
-        right = new int[R];
-        for (int c = 0; c < R; c++) {
-            right[c] = -1;
-        }
-        for (int j = 0; j < pat.length(); j++) {
-            right[pat.charAt(j)] = j;
-        }
-    }
+    public BoyerMoore() { this.R = 256; }
 
     /**
      * Function search
@@ -57,5 +45,23 @@ public class BoyerMoore implements StringProcessor {
             }
         }
         return false;           // not found
+    }
+
+    /**
+     * Procedure setPattern
+     * @param pat 
+     */
+    @Override
+    public void setPattern(String pat) {
+       this.pat = pat;
+
+        // position of rightmost occurrence of c in the pattern
+        right = new int[R];
+        for (int c = 0; c < R; c++) {
+            right[c] = -1;
+        }
+        for (int j = 0; j < pat.length(); j++) {
+            right[pat.charAt(j)] = j;
+        }
     }
 }

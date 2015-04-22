@@ -15,13 +15,7 @@ public class KnuthMorrisPratt implements StringProcessor {
     
     /** Constructor
      * @param pat **/
-    public KnuthMorrisPratt(String pat)
-    {
-        this.pat = pat;
-        /** pre construct failure array for a pattern **/
-        failure = new int[pat.length()];
-        preprocess(pat);
-    }
+    public KnuthMorrisPratt() {}
     
     /**
      * Procedure preprocess
@@ -75,6 +69,18 @@ public class KnuthMorrisPratt implements StringProcessor {
         }
         return (j == lenp);
     }    
+
+    /**
+     * Procedure setPattern
+     * @param pat 
+     */
+    @Override
+    public void setPattern(String pat) {
+        this.pat = pat;
+        /** pre construct failure array for a pattern **/
+        failure = new int[pat.length()];
+        preprocess(pat);
+    }
 }
     
 
