@@ -75,12 +75,8 @@ public class TwitterCrawler {
         try {
             query = 
                 getTimeline(
-                    Keypoh.QueryGenerator(args[3],0)
+                    Keypoh.QueryGenerator(args[3], 0)
                 );
-            
-            query.stream().forEach((tweet) -> {
-                System.out.println(tweet);
-            });
         } finally {
             return query;
         }
@@ -97,10 +93,8 @@ public class TwitterCrawler {
         config
             .setDebugEnabled(true)
             .setApplicationOnlyAuthEnabled(true)
-//            .setHttpProxyHost("cache2.itb.ac.id")
-//            .setHttpProxyUser("afrizal_f")
-//            .setHttpProxyPassword("R1zal96@itb")
-//            .setHttpProxyPort(8080)
+            .setHttpProxyHost("167.205.22.104")
+            .setHttpProxyPort(8082)
             ;
     }
 }

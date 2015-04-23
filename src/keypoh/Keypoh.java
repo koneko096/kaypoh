@@ -32,7 +32,7 @@ public class Keypoh {
     public static void main(String[] args) throws Exception {
         List<String> contents;
         StringProcessor st;
-        
+
         /* Get contents from API request */
         if (args[0].equals("tw")) {
             twitter4j.conf.ConfigurationBuilder config;
@@ -43,14 +43,14 @@ public class Keypoh {
             config = new facebook4j.conf.ConfigurationBuilder();
             contents = new FacebookCrawler(config).Call(args);
         }
-        
+
         /* Set matching method */
         if (args[1].equals("bm")) {
             st = new BoyerMoore();
         } else {
             st = new KnuthMorrisPratt();
         }
-        
+
         /* Set categories from given topic */
         for (int i = 0; i < topics.size(); ++i) {
             if (topics.get(i).equals(args[2])) {
@@ -58,14 +58,14 @@ public class Keypoh {
                 break;
             }
         }
-        
+
         /* Categorize each content */
         for (String content : contents) {
             boolean categorized = false;
-                
+
             for (int i = 4; i < args.length && !categorized; ++i) {
                 List<String> keywords = parse(args[i], ",");
-                
+
                 for (String keyword : keywords) {
                     st.setPattern(keyword);
                     if (st.search(content)) {
@@ -74,14 +74,14 @@ public class Keypoh {
                             list = new LinkedList<>();
                         }
                         list.add(content);
-                        searchResult.put(keyword, list);
-                        
+                        searchResult.put(categories.get(i - 4), list);
+
                         categorized = true;
                         break;
                     }
                 }
             }
-            
+
             /* unknown category */
             if (!categorized) {
                 List<String> list = searchResult.get("unknown");
@@ -90,14 +90,14 @@ public class Keypoh {
                 }
                 list.add(content);
                 searchResult.put("unknown", list);
-                break;
             }
         }
-        
+
         /* Print result */
         for (String category : categories) {
             List<String> results = searchResult.get(category);
-            
+            if (results == null) results = new ArrayList<>();
+
             System.out.println("Kategori " + category + " :");
             System.out.println("Banyak post : " + results.size());
             for (String result : results) {
@@ -105,7 +105,7 @@ public class Keypoh {
             }
             System.out.println();
         }
-        
+
         /* Khusus untuk kategori unknown */
         System.out.println("Kategori unknown :");
         List<String> results = searchResult.get("unknown");

@@ -42,7 +42,10 @@ public class FacebookCrawler {
      */
     private List getTimeline(String key) throws Exception {
         List<String> ans = new LinkedList();
-        List<Post> statuses = fb.searchPosts(key, page);
+        List<Post> statuses = null;
+        try {
+            statuses = fb.searchPosts(key, page);
+        } catch (Exception e) { e.printStackTrace(); }
         
         for (Post status : statuses) {
             if (status.getMessage() != null) {
@@ -66,12 +69,8 @@ public class FacebookCrawler {
         try {
             query = 
                 getTimeline(
-                    Keypoh.QueryGenerator(args[3],1)
+                    Keypoh.QueryGenerator(args[3], 1)
                 );
-            
-            query.stream().forEach((tweet) -> {
-                System.out.println(tweet);
-            });
         } finally {
             return query;
         }
@@ -87,10 +86,8 @@ public class FacebookCrawler {
         facebook4j.conf.ConfigurationBuilder config) {
         config
             .setDebugEnabled(true)
-//            .setHttpProxyHost("cache2.itb.ac.id")
-//            .setHttpProxyUser("afrizal_f")
-//            .setHttpProxyPassword("R1zal96@itb")
-//            .setHttpProxyPort(8080)
+            .setHttpProxyHost("167.205.22.104")
+            .setHttpProxyPort(8082)
             ;
     }
 }
