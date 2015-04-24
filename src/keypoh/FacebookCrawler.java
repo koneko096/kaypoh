@@ -20,7 +20,7 @@ import facebook4j.conf.*;
 public class FacebookCrawler {
     private final Facebook fb;
     private final Reading page = new Reading().limit(100);
-    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAJkhesljqt8ywJAkZCzZBvohvZCexHMxYFf1RucExRV1oVAAW1LY90ij3yMYMA546whEZCbXgc7RvS4LzXOHPCbI18aXbKhd5RDoMMRpOjt0HqPdOsHl2roThLuOkh4ZBjrcHRwZBnBibdZA0fIjo2RSnX9QzAoFB8arOXPNOuukZB3i7R54SfgCPByIettZAEc54ZAlcddNPQ");
+    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAHlOPNQrPSNvZBVZBwOsPceRMflZAWOXS951g1ZCdQXl9qI84PhptJf14HOH3LBvESGc0zA5yyZCZATymNUN15IZCSMc3NRu9JqRP7IjiTVFbtpkLLuFvqD30CBSIcpCSut8wYj2NTvpspXun8v6ZBPOm2c9y4EODZBZBJkrIxhKHj3JG6y224fSXEjWdqE52ZA8dsuzVZCt0Xcg");
     
     /**
      * Constructor
@@ -64,13 +64,11 @@ public class FacebookCrawler {
      * @return List
      * @throws Exception 
      */
-    public List Call(String[] args) throws Exception {        
+    public List Call(String keys) throws Exception {        
         List<String> query = null;
         try {
             query = 
-                getTimeline(
-                    Keypoh.QueryGenerator(args[3], 1)
-                );
+                getTimeline(keys);
         } finally {
             return query;
         }

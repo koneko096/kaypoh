@@ -70,13 +70,11 @@ public class TwitterCrawler {
      * @return List
      * @throws Exception 
      */
-    public List Call(String[] args) throws Exception {
+    public List Call(String keys) throws Exception {
         List<String> query = null;
         try {
             query = 
-                getTimeline(
-                    Keypoh.QueryGenerator(args[3], 0)
-                );
+                getTimeline(keys);
         } finally {
             return query;
         }

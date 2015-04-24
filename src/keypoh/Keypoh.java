@@ -14,22 +14,24 @@ import StringMatching.*;
  * @author ical
  */
 public class Keypoh {
-    private static List<String> topics = asList("topic1", "topic2", "topic3");
-    private static List< List<String> > topicCategories = asList(
+    private List<String> topics = asList("topic1", "topic2", "topic3");
+    private List< List<String> > topicCategories = asList(
         asList("categ11", "categ12", "categ13"),
         asList("categ21", "categ22", "categ23"),
         asList("categ31", "categ32", "categ33")
     );
-    private static List<String> categories;
-    private static Map<String, List<String> > searchResult = new HashMap();
+    private List<String> categories;
+    private Map<String, List<String> > searchResult = new HashMap();
         
     /**
-     * Driver
-     * arguments : api_used matching_method topic tags keywords
-     * @param args String[]
+     * Constructor
+     * input arguments as params : 
+     * api_used matching_method topic tags keywords
+     * 
+     * @param args
      * @throws java.lang.Exception
      */
-    public static void main(String[] args) throws Exception {
+    public Keypoh(String[] args) throws Exception {
         List<String> contents;
         StringProcessor st;
 
@@ -37,11 +39,11 @@ public class Keypoh {
         if (args[0].equals("tw")) {
             twitter4j.conf.ConfigurationBuilder config;
             config = new twitter4j.conf.ConfigurationBuilder();
-            contents = new TwitterCrawler(config).Call(args);
+            contents = new TwitterCrawler(config).Call(QueryGenerator(args[3], 0));
         } else {
             facebook4j.conf.ConfigurationBuilder config;
             config = new facebook4j.conf.ConfigurationBuilder();
-            contents = new FacebookCrawler(config).Call(args);
+            contents = new FacebookCrawler(config).Call(QueryGenerator(args[3], 1));
         }
 
         /* Set matching method */
@@ -92,29 +94,26 @@ public class Keypoh {
                 searchResult.put("unknown", list);
             }
         }
-
-        /* Print result */
+    }
+    
+    public List getResult() {
+        List<List<String>> allresult = new ArrayList<>();
+        
+        /* Add result */
         for (String category : categories) {
             List<String> results = searchResult.get(category);
             if (results == null) results = new ArrayList<>();
-
-            System.out.println("Kategori " + category + " :");
-            System.out.println("Banyak post : " + results.size());
-            for (String result : results) {
-                System.out.println(result);
-            }
-            System.out.println();
+            allresult.add(results);
         }
 
         /* Khusus untuk kategori unknown */
-        System.out.println("Kategori unknown :");
         List<String> results = searchResult.get("unknown");
-        System.out.println("Banyak post : " + results.size());
-        for (String result : results) {
-            System.out.println(result);
-        }
-        System.out.println();
+        if (results == null) results = new ArrayList<>();
+        allresult.add(results);
+        
+        return allresult;
     }
+
     
     /**
      * Function parse
@@ -124,7 +123,7 @@ public class Keypoh {
      * @param delim
      * @return List<String>
      */
-    private static List<String> parse(String s, String delim) {
+    private List<String> parse(String s, String delim) {
         List<String> l = new LinkedList<>();
         for (String ss : s.split(delim)) {
             if (ss != null) {
@@ -142,7 +141,7 @@ public class Keypoh {
      * @param param
      * @return String
      */
-    public static String QueryGenerator(String key, int param) {
+    public String QueryGenerator(String key, int param) {
         String q = "";
         for (String s : parse(key, ",")) {
             if (s != null) {
