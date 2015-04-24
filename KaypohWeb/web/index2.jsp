@@ -25,8 +25,17 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     </head>
     <body>
-        <% String modeSearch = request.getParameter("mode") ;
-        out.write(modeSearch);
+        <% 
+        
+        String [] args= new String[10];
+        //api
+        args[0]=request.getParameter("mode") ;
+        args[1]="kmp";
+        args[2]="fashion";
+        //tags
+        args[3]=request.getParameter("keyword") ;
+        args[4]="asus,charger";
+        args[5]=;
        %>
         <div class="container">
 		<header>

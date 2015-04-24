@@ -20,12 +20,12 @@
  
             <div class="col-md-4">
                 <form action="index.jsp" method="GET">
-                    <input type="image" class="logo" src="image/homefb.png" name="modeapp" class="btTxt submit" value="facebook" />
+                    <input type="image" class="logo" src="image/homefb.png" name="modeapp" class="btTxt submit" value="fb" />
                 </form>
             </div>
             <div class="col-md-4 col-md-offset-4">
                 <form action="index.jsp" method="GET">
-                    <input type="image" class="logo" src="image/hometwit.png" name="modeapp" class="btTxt submit" value="twitter"  />
+                    <input type="image" class="logo" src="image/hometwit.png" name="modeapp" class="btTxt submit" value="tw"  />
                 </form>
             </div>
         </div>

@@ -9,7 +9,7 @@
 <%@page import="kaypoh.FacebookCrawler" %>
 <%@page import="kaypoh.TwitterCrawler"%>
 <%@page import="kaypoh.Kaypoh"%>
-<%@page import="StringMatching.KMP"%>
+<%@page import="StringMatching.KnuthMorrisPratt"%>
 <%@page import="static java.util.Arrays.asList"%>
 <%@page import="java.util.List" %>
 <%@page import="java.util.LinkedList" %>
@@ -76,6 +76,7 @@
                 <div class="form-group">
                     <label for="inputCategory" id="NamaKeyword" class="col-sm-2 control-label">Keyword <%=topics.get(CO)%></label>
                     <div class="col-sm-11">
+                        <input type="hidden" name="topic" value="<%=topics.get(CO)%>"
                         <input type="text" name="keyword" class="form-control"  placeholder="#hiburan">
                     </div>
                 </div>
