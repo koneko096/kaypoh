@@ -30,10 +30,12 @@ public class KnuthMorrisPratt implements StringProcessor {
         for (int j = 1; j < n; j++)
         {
             int i = failure[j - 1];
-            while ((pat.charAt(j) != pat.charAt(i + 1)) && i >= 0) {
+            while (i >= 0 &&
+                Character.toLowerCase(pat.charAt(j)) != Character.toLowerCase(pat.charAt(i + 1))) 
+            {
                 i = failure[i];
             }
-            if (pat.charAt(j) == pat.charAt(i + 1)) {
+            if (Character.toLowerCase(pat.charAt(j)) != Character.toLowerCase(pat.charAt(i + 1))) {
                 failure[j] = i + 1;
             } else {
                 failure[j] = -1;
@@ -56,7 +58,7 @@ public class KnuthMorrisPratt implements StringProcessor {
         int lenp = pat.length();
         while (i < lens && j < lenp)
         {
-            if (text.charAt(i) == pat.charAt(j))
+            if (Character.toLowerCase(text.charAt(i)) == Character.toLowerCase(pat.charAt(j)))
             {
                 i++;
                 j++;

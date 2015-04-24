@@ -21,8 +21,8 @@ public class Kaypoh {
         asList("Bola", "Raket", "Tenis"),
         asList("Laptop","Mouse")
     );
-    private List<String> categories;
-    private Map<String, List<String> > searchResult = new HashMap();
+    public List<List<String> > username = null;
+    private List<List<String> > searchResult = null;
         
     /**
      * Constructor
@@ -33,19 +33,9 @@ public class Kaypoh {
      * @throws java.lang.Exception
      */
     public Kaypoh(String[] args) throws Exception {
-        List<String> contents;
+        List<String> contents = new ArrayList<>();
+        List<String> users = new ArrayList<>();
         StringProcessor st;
-
-        /* Get contents from API request */
-        if (args[0].equalsIgnoreCase("tw")) {
-            twitter4j.conf.ConfigurationBuilder config;
-            config = new twitter4j.conf.ConfigurationBuilder();
-            contents = new TwitterCrawler(config).Call(QueryGenerator(args[3], 0));
-        } else {
-            facebook4j.conf.ConfigurationBuilder config;
-            config = new facebook4j.conf.ConfigurationBuilder();
-            contents = new FacebookCrawler(config).Call(QueryGenerator(args[3], 1));
-        }
 
         /* Set matching method */
         if (args[1].equalsIgnoreCase("bm")) {
@@ -53,31 +43,56 @@ public class Kaypoh {
         } else {
             st = new KnuthMorrisPratt();
         }
-
+        
         /* Set categories from given topic */
         for (int i = 0; i < topics.size(); ++i) {
             if (topics.get(i).equals(args[2])) {
-                categories = topicCategories.get(i);
+                int N = topicCategories.get(i).size();
+                searchResult = new ArrayList(N + 1);
+                username = new ArrayList(N + 1);
+                for (int j = 0; j <= N; j++) {
+                    searchResult.add(null);
+                    username.add(null);
+                }
                 break;
             }
         }
+        
+        /* Get contents from API request */
+        if (args[0].equalsIgnoreCase("tw")) {
+            twitter4j.conf.ConfigurationBuilder config;
+            config = new twitter4j.conf.ConfigurationBuilder();
+            TwitterCrawler x = new TwitterCrawler(config);
+            x.Call(QueryGenerator(args[3], 0), contents, users);
+        } else {
+            facebook4j.conf.ConfigurationBuilder config;
+            config = new facebook4j.conf.ConfigurationBuilder();
+            FacebookCrawler x = new FacebookCrawler(config);
+            x.Call(QueryGenerator(args[3], 1), contents, users);
+        }
 
         /* Categorize each content */
-        for (String content : contents) {
+        for (int j = 0; j < contents.size(); j++) {
             boolean categorized = false;
+            String content = contents.get(j);
+            String user = users.get(j);
 
-            for (int i = 4; i < args.length && !categorized && args[i] != null; ++i) {
+            for (int i = 4; !categorized && args[i] != null; ++i) {
                 List<String> keywords = parse(args[i], ",");
 
                 for (String keyword : keywords) {
                     st.setPattern(keyword);
                     if (st.search(content)) {
-                        List<String> list = searchResult.get(categories.get(i - 4));
+                        List<String> list = searchResult.get(i - 4);
+                        List<String> list2 = username.get(i - 4);
                         if (list == null) {
-                            list = new LinkedList<>();
+                            list = new ArrayList<>();
+                            list2 = new ArrayList<>();
                         }
                         list.add(content);
-                        searchResult.put(categories.get(i - 4), list);
+                        list2.add(user);
+                        searchResult.set(i - 4, list);
+                        username.set(i - 4, list2);
 
                         categorized = true;
                         break;
@@ -87,34 +102,45 @@ public class Kaypoh {
 
             /* unknown category */
             if (!categorized) {
-                List<String> list = searchResult.get("unknown");
+                int N = searchResult.size();
+                List<String> list = searchResult.get(N - 1);
+                List<String> list2 = username.get(N - 1);
                 if (list == null) {
-                    list = new LinkedList<>();
+                    list = new ArrayList<>();
+                    list2 = new ArrayList<>();
                 }
                 list.add(content);
-                searchResult.put("unknown", list);
+                list2.add(user);
+                searchResult.set(N - 1, list);
+                username.set(N - 1, list2);
             }
         }
     }
     
-    public List getResult() {
-        List<List<String>> allresult = new ArrayList<>();
-        
-        /* Add result */
-        for (String category : categories) {
-            List<String> results = searchResult.get(category);
-            if (results == null) results = new ArrayList<>();
-            allresult.add(results);
-        }
-
-        /* Khusus untuk kategori unknown */
-        List<String> results = searchResult.get("unknown");
-        if (results == null) results = new ArrayList<>();
-        allresult.add(results);
-        
-        return allresult;
+    public List getResult() {        
+        return searchResult;
     }
-
+    
+    public String getLocation(String s, int k) {
+        int pos;
+        String ans = "";
+        pos = s.indexOf("Di ");
+        if (pos >= 0) 
+            pos += 3;
+        else {
+            pos = s.indexOf(" di ");
+            if (pos < 0) return ans;
+            pos += 4;
+        }
+        String[] l = s.substring(pos).split(" ");
+        try {
+            for (int i = 0; i < k; i++) {
+                if (i > 0) ans += " ";
+                ans += l[i];
+            }
+        } catch (ArrayIndexOutOfBoundsException e) {}
+        return ans;
+    }
     
     /**
      * Function parse
@@ -158,3 +184,4 @@ public class Kaypoh {
         return q;        
     }
 }
+

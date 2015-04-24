@@ -20,7 +20,7 @@ import facebook4j.conf.*;
 public class FacebookCrawler {
     private final Facebook fb;
     private final Reading page = new Reading().limit(100);
-    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAHlOPNQrPSNvZBVZBwOsPceRMflZAWOXS951g1ZCdQXl9qI84PhptJf14HOH3LBvESGc0zA5yyZCZATymNUN15IZCSMc3NRu9JqRP7IjiTVFbtpkLLuFvqD30CBSIcpCSut8wYj2NTvpspXun8v6ZBPOm2c9y4EODZBZBJkrIxhKHj3JG6y224fSXEjWdqE52ZA8dsuzVZCt0Xcg");
+    private final AccessToken token = new AccessToken("CAALtrpw2Xm4BAO8GWZBlBuzfTDr4NuGCgtinUSLypGDkT7jiHhffUZBNAIirEyQ6IUemQGRGaZAKFZBDeFHRSVcglqWA7S715rPDhl9TjVGqKFQ7w4FZCWAVq0u0L0LP47RbosOhARNE01HB1gR2OZCk3XdnCAwoudDTYrARYFUPk3FkrhSNH6E5GFh8OlKZCcz1T8n4EPh0yOqtS6qKxH1");
     
     /**
      * Constructor
@@ -34,12 +34,6 @@ public class FacebookCrawler {
         fb.setOAuthAccessToken(token);
     }
     
-    /**
-     * Function getTimeline
-     * @param key
-     * @return List
-     * @throws Exception 
-     */
     private List getTimeline(String key) throws Exception {
         List<String> ans = new LinkedList();
         List<Post> statuses = null;
@@ -56,21 +50,16 @@ public class FacebookCrawler {
         return ans;
     }
     
-    /**
-     * Procedure Call
-     * Call Facebook API
-     * 
-     * @param args
-     * @return List
-     * @throws Exception 
-     */
-    public List Call(String keys) throws Exception {        
-        List<String> query = null;
+    public void Call(String keys, List<String> res, List<String> uid) throws Exception {
+        List<Post> query = null;
         try {
             query = 
                 getTimeline(keys);
         } finally {
-            return query;
+            for (int i = 0; i < query.size(); i++) {
+                res.add(query.get(i).getMessage());
+                uid.add(query.get(i).getName());
+            }
         }
     }
     

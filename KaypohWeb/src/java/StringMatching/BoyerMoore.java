@@ -36,8 +36,9 @@ public class BoyerMoore implements StringProcessor {
             skip = 0;
             try {
                 for (int j = M-1; j >= 0; j--) {
-                    if (pat.charAt(j) != txt.charAt(i+j)) {
-                        skip = Math.max(1, j - right[txt.charAt(i+j)]);
+                    if (Character.toLowerCase(pat.charAt(j)) 
+                        != Character.toLowerCase(txt.charAt(i+j))) {
+                        skip = Math.max(1, j - right[Character.toLowerCase(txt.charAt(i+j))]);
                         break;
                     }
                 }
@@ -63,7 +64,7 @@ public class BoyerMoore implements StringProcessor {
             right[c] = -1;
         }
         for (int j = 0; j < pat.length(); j++) {
-            right[pat.charAt(j)] = j;
+            right[Character.toLowerCase(pat.charAt(j))] = j;
         }
     }
 }

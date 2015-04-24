@@ -28,16 +28,23 @@ public class Driver {
         argss[2]="Beauty";
         //tags
         argss[3]="#Salon";//request.getParameter("keyword") ;
-        argss[4]="asus,charger";
-        argss[5]="bedak, kalung";
-        argss[6]="sauna";
+        argss[4]="sex";
+        argss[5]="bedak,kalung";
+        argss[6]="job";
         Kaypoh Kepo = new Kaypoh(argss);
         List<List> allresult = Kepo.getResult();
         Kaypoh k = new Kaypoh(argss);
         
         /* Print result */
         for (List<String> results : allresult) {
-            System.out.println("Banyak post : " + results.size());
+            int N;
+            try {
+                N = results.size();
+            } catch (NullPointerException e) {
+                results = new ArrayList();
+                N = results.size();
+            }
+            System.out.println("Banyak post : " + N);
             for (String result : results) {
                 System.out.println(result);
             }

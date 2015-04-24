@@ -36,18 +36,11 @@ public class TwitterCrawler {
         Configure(config);
         tw = new TwitterFactory(config.build()).getInstance();
         tw.setOAuthConsumer("4Fe696sYfk2pZjmmncAaZJQUR", "F25etIib277GtJDK5qIXzC8N4YdZ3Fh8w7Bg2otwqt2EDHQabj");
-//        tw.setOAuthAccessToken(token);
         OAuth2Token tok = tw.getOAuth2Token();
     }
     
-    /**
-     * Function getTimeline
-     * @param key
-     * @return List
-     * @throws Exception 
-     */
     private List getTimeline(String key) throws Exception {
-        List<String> ans = new LinkedList();
+        List<Status> ans = new LinkedList();
         Query query = new Query(key);
         query.setCount(limit);
         QueryResult res = tw.search(query);
@@ -55,28 +48,25 @@ public class TwitterCrawler {
         List<Status> tweets = res.getTweets();
         for (Status tweet : tweets) {
             if (tweet.getText() != null) {
-                ans.add(tweet.getText());
+                ans.add(tweet);
             }
         }
             
         return ans;
     }
     
-    /**
-     * Procedure Call
-     * Call Twitter API
-     * 
-     * @param args
-     * @return List
-     * @throws Exception 
-     */
-    public List Call(String keys) throws Exception {
-        List<String> query = null;
+    public void Call(String keys, List<String> res, List<String> uid) throws Exception {
+        List<Status> query = null;
         try {
             query = 
                 getTimeline(keys);
+        } catch (Exception e) {
+            e.printStackTrace();
         } finally {
-            return query;
+            for (int i = 0; i < query.size(); i++) {
+                res.add(query.get(i).getText());
+                uid.add(query.get(i).getUser().getScreenName());
+            }
         }
     }
     
