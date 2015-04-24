@@ -66,7 +66,7 @@ public class Kaypoh {
         for (String content : contents) {
             boolean categorized = false;
 
-            for (int i = 4; i < args.length && !categorized; ++i) {
+            for (int i = 4; i < args.length && !categorized && args[i] != null; ++i) {
                 List<String> keywords = parse(args[i], ",");
 
                 for (String keyword : keywords) {

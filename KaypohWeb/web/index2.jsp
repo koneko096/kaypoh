@@ -56,16 +56,17 @@
 					<label for="ac-<%=i%>">KATEGORI <%=NamaKategori.get(i)%></label>
 					<article class="ac-small">
                                             
-                                            <% 
-                                            for(int a=0;a<allresult.size();a++) {%> 
+                                            <% List<String> result= allresult.get(i);
+                                            for(int a=0;a<result.size();a++) {%> 
                                             <br>
                                             <!--div class="picture">
                                                 <img alt="" src="image/Maskot-Act-Beauty.png"
                                                      style="height: 85px; " id="image"/>
                                             </div-->
+                                            
                                             <div class="Twit">
                                                 <h2>@BimoAryo</h2>
-                                                <p><%=allresult.get(a)%></p>
+                                                <p><%=result.get(a)%></p>
                                                 
                                             </div>
                                             <%}%>
@@ -73,6 +74,28 @@
 					</article>
 				</div>
                             <%}%>
+                            <div>
+					<input id="ac-<%=NamaKategori.size()%>" name="accordion-1" type="radio" checked />
+					<label for="ac-<%=NamaKategori.size()%>">KATEGORI UNKNOWN</label>
+					<article class="ac-small">
+                                            
+                                            <% List<String> result= allresult.get(NamaKategori.size());
+                                            for(int a=0;a<result.size();a++) {%> 
+                                            <br>
+                                            <!--div class="picture">
+                                                <img alt="" src="image/Maskot-Act-Beauty.png"
+                                                     style="height: 85px; " id="image"/>
+                                            </div-->
+                                            
+                                            <div class="Twit">
+                                                <h2>@BimoAryo</h2>
+                                                <p><%=result.get(a)%></p>
+                                                
+                                            </div>
+                                            <%}%>
+						
+					</article>
+				</div>
 				<!--div>
 					<input id="ac-2" name="accordion-1" type="radio" />
 					<label for="ac-2">KATEGORI 2</label>

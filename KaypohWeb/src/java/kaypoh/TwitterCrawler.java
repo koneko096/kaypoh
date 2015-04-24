@@ -91,8 +91,8 @@ public class TwitterCrawler {
         config
             .setDebugEnabled(true)
             .setApplicationOnlyAuthEnabled(true)
-            .setHttpProxyHost("167.205.22.104")
-            .setHttpProxyPort(8082)
+//            .setHttpProxyHost("167.205.22.104")
+//            .setHttpProxyPort(8082)
             ;
     }
 }
