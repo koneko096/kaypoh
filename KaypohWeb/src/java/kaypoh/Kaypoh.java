@@ -15,7 +15,7 @@ import StringMatching.*;
  */
 public class Kaypoh {
     private List<String> topics = asList("Beauty", "Hiburan", "Sport", "Tech");
-    private List< List<String> > topicCategories = asList(
+    public List< List<String> > topicCategories = asList(
         asList("Kosmetik", "Salon", "Pakaian"),
         asList("Musik", "Film", "Dokumenter"),
         asList("Bola", "Raket", "Tenis"),
@@ -37,7 +37,7 @@ public class Kaypoh {
         StringProcessor st;
 
         /* Get contents from API request */
-        if (args[0].equals("tw")) {
+        if (args[0].equalsIgnoreCase("tw")) {
             twitter4j.conf.ConfigurationBuilder config;
             config = new twitter4j.conf.ConfigurationBuilder();
             contents = new TwitterCrawler(config).Call(QueryGenerator(args[3], 0));
@@ -48,7 +48,7 @@ public class Kaypoh {
         }
 
         /* Set matching method */
-        if (args[1].equals("bm")) {
+        if (args[1].equalsIgnoreCase("bm")) {
             st = new BoyerMoore();
         } else {
             st = new KnuthMorrisPratt();

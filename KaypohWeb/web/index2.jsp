@@ -4,6 +4,8 @@
     Author     : Bimo Aryo Tyasono
 --%>
 
+<%@page import="java.util.List"%>
+<%@page import="kaypoh.Kaypoh"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 
@@ -29,13 +31,16 @@
         
         String [] args= new String[10];
         //api
-        args[0]=request.getParameter("mode") ;
+        args[0]="tw";//request.getParameter("mode") ;
         args[1]="kmp";
-        args[2]="fashion";
+        args[2]="Beauty";
         //tags
-        args[3]=request.getParameter("keyword") ;
+        args[3]="#Salon";//request.getParameter("keyword") ;
         args[4]="asus,charger";
-        args[5]=;
+        args[5]="bedak, kalung";
+        args[6]="sauna";
+        Kaypoh Kepo = new Kaypoh(args);
+        List<List> allresult = Kepo.getResult();
        %>
         <div class="container">
 		<header>
@@ -44,24 +49,27 @@
 				
 		</header>
 			<section class="ac-container">
-                            <% for(int i=1;i<=3;i++) {%>
+                            <% List<String> NamaKategori= Kepo.topicCategories.get(0); 
+                                for(int i=0;i<NamaKategori.size();i++) {%>
 				<div>
 					<input id="ac-<%=i%>" name="accordion-1" type="radio" checked />
-					<label for="ac-<%=i%>">KATEGORI <%=i%></label>
+					<label for="ac-<%=i%>">KATEGORI <%=NamaKategori.get(i)%></label>
 					<article class="ac-small">
-                                            <% for(int a=1;a<=3;a++) {%> 
+                                            
+                                            <% 
+                                            for(int a=0;a<allresult.size();a++) {%> 
                                             <br>
-                                            <div class="picture">
+                                            <!--div class="picture">
                                                 <img alt="" src="image/Maskot-Act-Beauty.png"
                                                      style="height: 85px; " id="image"/>
-                                            </div>
+                                            </div-->
                                             <div class="Twit">
                                                 <h2>@BimoAryo</h2>
-                                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+                                                <p><%=allresult.get(a)%></p>
                                                 
                                             </div>
                                             <%}%>
-						<p>Well, the way they make shows is, they make one show. That show's called a pilot. Then they show that show to the people who make shows, and on the strength of that one show they decide if they're going to make more shows.</p>
+						
 					</article>
 				</div>
                             <%}%>
