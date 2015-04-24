@@ -1,0 +1,17 @@
+body
+{
+    background-image: url('../image/bg-kaypoh.png');
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed; 
+}
+.col-md-4 {
+	top: 60px;
+}
+.col-md-4 col-md-offset-4{
+	top: 60px;
+}
+
+.logo{
+    width: 120%;
+}
