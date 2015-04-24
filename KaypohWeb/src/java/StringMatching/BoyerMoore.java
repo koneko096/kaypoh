@@ -34,12 +34,14 @@ public class BoyerMoore implements StringProcessor {
         int skip;
         for (int i = 0; i <= N - M; i += skip) {
             skip = 0;
-            for (int j = M-1; j >= 0; j--) {
-                if (pat.charAt(j) != txt.charAt(i+j)) {
-                    skip = Math.max(1, j - right[txt.charAt(i+j)]);
-                    break;
+            try {
+                for (int j = M-1; j >= 0; j--) {
+                    if (pat.charAt(j) != txt.charAt(i+j)) {
+                        skip = Math.max(1, j - right[txt.charAt(i+j)]);
+                        break;
+                    }
                 }
-            }
+            } catch (Exception e) { break; }
             if (skip == 0) {
                 return true;    // found
             }
@@ -53,10 +55,10 @@ public class BoyerMoore implements StringProcessor {
      */
     @Override
     public void setPattern(String pat) {
-       this.pat = pat;
+        this.pat = pat;
+        right = new int[R];
 
         // position of rightmost occurrence of c in the pattern
-        right = new int[R];
         for (int c = 0; c < R; c++) {
             right[c] = -1;
         }
