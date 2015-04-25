@@ -14,12 +14,12 @@ import StringMatching.*;
  * @author ical
  */
 public class Kaypoh {
-    private List<String> topics = asList("Beauty", "Hiburan", "Sport", "Tech");
+    private List<String> topics = asList("Health & Beauty", "Entertainment", "Sport", "Politics");
     public List< List<String> > topicCategories = asList(
-        asList("Kosmetik", "Salon", "Pakaian"),
-        asList("Musik", "Film", "Dokumenter"),
-        asList("Bola", "Raket", "Tenis"),
-        asList("Laptop","Mouse")
+        asList("Obat", "Perawatan Tubuh", "Perawatan Wajah","Fashion"),
+        asList("Musik", "Movies", "TV","Celebrity"),
+        asList("Bola", "Raket", "Atlet"),
+        asList("Daerah","Nasional","Internasional")
     );
     public List<List<String> > username = null;
     private List<List<String> > searchResult = null;

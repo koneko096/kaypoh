@@ -23,12 +23,12 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script language="javascript">
-        <% List<String> topics = asList("Beauty", "Hiburan", "Sport", "Tech");
+        <% List<String> topics = asList("Health & Beauty", "Entertainment", "Sport", "Politics");
           List< List<String> > topicCategories = asList(
-        asList("Kosmetik", "Salon", "Pakaian"),
-        asList("Musik", "Film", "Dokumenter"),
-        asList("Bola", "Raket", "Tenis"),
-        asList("Laptop","Mouse")
+        asList("Obat", "Perawatan Tubuh", "Perawatan Wajah","Fashion"),
+        asList("Musik", "Movies", "TV","Celebrity"),
+        asList("Bola", "Raket", "Atlet"),
+        asList("Daerah","Nasional","Internasional")
     );%>
         <% String a = request.getParameter("modeapp") ;
             out.write(a);
@@ -76,7 +76,7 @@
                 <div class="form-group">
                     <label for="inputCategory" id="NamaKeyword" class="col-sm-2 control-label">Keyword <%=topics.get(CO)%></label>
                     <div class="col-sm-11">
-                        <input type="hidden" name="topic" value="<%=topics.get(CO)%>"
+                        <input type="hidden" name="topic" value="<%=topics.get(CO)%>"/>
                         <input type="text" name="keyword" class="form-control"  placeholder="#hiburan">
                     </div>
                 </div>
@@ -86,11 +86,11 @@
                     
                     <label for="inputCategory" id="NamaKategori" class="col-sm-2 control-label">Kategori <%= Kategori.get(i)%></label>
                     <div class="col-sm-11">
-                        <input type="text" name="kategori"class="form-control"  placeholder="Tv, radio, pensi">
+                        <input type="text" name="kategori"class="form-control"  placeholder="Tv, Bedak, Mikasa">
                     </div>
                 </div>
                 <%}%>
-                     <input type="hidden" name="mode" class="form-control" value="<%=a%>" placeholder="#hiburan">
+                     <input type="hidden" name="mode" class="form-control" value="<%=a%>" >
                 <br/>
                 <div class="form-group">
                     <div class="col-sm-offset-7 col-sm-10">

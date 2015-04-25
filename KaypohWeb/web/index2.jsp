@@ -28,19 +28,32 @@
     </head>
     <body>
         <% 
-        
+        String [] CategoryField=request.getParameterValues("kategori");
         String [] args= new String[10];
         //api
-        args[0]="tw";//request.getParameter("mode") ;
-        args[1]="kmp";
-        args[2]="Beauty";
+        args[0]=request.getParameter("mode") ;//"tw";
+        args[1]="bm";
+        args[2]=request.getParameter("topic");//"Beauty";
         //tags
-        args[3]="#Salon";//request.getParameter("keyword") ;
-        args[4]="asus,charger";
-        args[5]="bedak, kalung";
-        args[6]="sauna";
+        args[3]=request.getParameter("keyword") ;//"#Salon";
+        out.print(CategoryField.length+4);
+        for(int i=4;i<(CategoryField.length+4);i++){
+        args[i]=CategoryField[i-4];
+        }
+        //args[5]="bedak,kalung";
+        //args[6]="job";
+//        args[0]="tw";//request.getParameter("mode") ;
+//        args[1]="kmp";
+//        args[2]="Beauty";
+//        //tags
+//        args[3]="#Salon";//request.getParameter("keyword") ;
+//        args[4]="sex";
+//        args[5]="bedak,kalung";
+//        args[6]="job";
+//        args[7]="apapun";
         Kaypoh Kepo = new Kaypoh(args);
         List<List> allresult = Kepo.getResult();
+
        %>
         <div class="container">
 		<header>
@@ -49,24 +62,66 @@
 				
 		</header>
 			<section class="ac-container">
-                            <% List<String> NamaKategori= Kepo.topicCategories.get(0); 
-                                for(int i=0;i<NamaKategori.size();i++) {%>
-				<div>
-					<input id="ac-<%=i%>" name="accordion-1" type="radio" checked />
-					<label for="ac-<%=i%>">KATEGORI <%=NamaKategori.get(i)%></label>
+                            <% List<String> NamaKategori= Kepo.topicCategories.get(3); 
+                            
+                                %>
+                                <div>
+                                    <% List<String> resultU= allresult.get(NamaKategori.size());
+                                        List<String> userU=Kepo.username.get(NamaKategori.size());%>
+					<input id="ac-<%=NamaKategori.size()%>" name="accordion-1" type="radio" checked />
+					<label for="ac-<%=NamaKategori.size()%>">KATEGORI UNKNOWN <span> (<%=resultU.size()%>) </span></label>
 					<article class="ac-small">
                                             
-                                            <% List<String> result= allresult.get(i);
-                                            for(int a=0;a<result.size();a++) {%> 
+                                            
+                                            <%for(int a=0;a<resultU.size();a++) {%> 
                                             <br>
-                                            <!--div class="picture">
+                                            <div class="picture">
                                                 <img alt="" src="image/Maskot-Act-Beauty.png"
                                                      style="height: 85px; " id="image"/>
-                                            </div-->
+                                            </div>
                                             
                                             <div class="Twit">
-                                                <h2>@BimoAryo</h2>
+                                                <p><h2>@<%=userU.get(a)%></h2></p>
+                                                <p><%=resultU.get(a)%></p>
+                                                <%if(!Kepo.getLocation(resultU.get(a), 2).equals("")){%>
+                                                    <form id="myform" action="gmap.jsp">
+                                                        <input type='hidden' name='query' value=<%=Kepo.getLocation(resultU.get(a), 2)%>>
+                                                     <button type="submit" class="btn btn-default">Location</button>
+                                                <%}%>
+                                            </div>
+                                            <%}%>
+						
+					</article>
+				</div>
+                                
+                                        <% for(int i=0;i<NamaKategori.size();i++) {
+                                            List<String> User=Kepo.username.get(i);%>
+				<div>
+					<input id="ac-<%=i%>" name="accordion-1" type="radio" checked />
+                                        <%String name= NamaKategori.get(i);
+                                        
+                                        List<String> result= allresult.get(i);%>
+                                        <label for="ac-<%=i%>">KATEGORI <%=name%> <span> (<%=result.size()%>) </span></label>
+					<article class="ac-small">
+                                            
+                                            <% for(int a=0;a<result.size();a++) {
+                                            String username=User.get(a);%> 
+                                            <br>
+                                            <div class="picture">
+                                                <img alt="" src="image/Maskot-Act-Beauty.png"
+                                                     style="height: 85px; " id="image"/>
+                                            </div>
+                                            
+                                            <div class="Twit">
+                                                
+                                                <h2>@<%=username%></h2>
                                                 <p><%=result.get(a)%></p>
+                                                <%if(!Kepo.getLocation(result.get(a), 2).equals("")){%>
+                                                    <form id="myform" action="gmap.jsp">
+                                                        <input type='hidden' name='query' value=<%=Kepo.getLocation(result.get(a), 2)%>>
+                                                     <button type="submit" class="btn btn-default">Location</button>
+                                                <%}%>
+                                                
                                                 
                                             </div>
                                             <%}%>
@@ -74,64 +129,8 @@
 					</article>
 				</div>
                             <%}%>
-                            <div>
-					<input id="ac-<%=NamaKategori.size()%>" name="accordion-1" type="radio" checked />
-					<label for="ac-<%=NamaKategori.size()%>">KATEGORI UNKNOWN</label>
-					<article class="ac-small">
-                                            
-                                            <% List<String> result= allresult.get(NamaKategori.size());
-                                            for(int a=0;a<result.size();a++) {%> 
-                                            <br>
-                                            <!--div class="picture">
-                                                <img alt="" src="image/Maskot-Act-Beauty.png"
-                                                     style="height: 85px; " id="image"/>
-                                            </div-->
-                                            
-                                            <div class="Twit">
-                                                <h2>@BimoAryo</h2>
-                                                <p><%=result.get(a)%></p>
-                                                
-                                            </div>
-                                            <%}%>
-						
-					</article>
-				</div>
-				<!--div>
-					<input id="ac-2" name="accordion-1" type="radio" />
-					<label for="ac-2">KATEGORI 2</label>
-					<article class="ac-medium">
-						<p>Like you, I used to think the world was this great place where everybody lived by the same standards I did, then some kid with a nail showed me I was living in his world, a world where chaos rules not order, a world where righteousness is not rewarded. That's Cesar's world, and if you're not willing to play by his rules, then you're gonna have to pay the price. </p>
-					</article>
-				</div>
-                
-                
-                
-				<div>
-					<input id="ac-3" name="accordion-1" type="radio" />
-					<label for="ac-3">KATEGORI 3</label>
-					<article class="ac-large">
-						<p>You think water moves fast? You should see ice. It moves like it has a mind. Like it knows it killed the world once and got a taste for murder. After the avalanche, it took us a week to climb out. Now, I don't know exactly when we turned on each other, but I know that seven of us survived the slide... and only five made it out. Now we took an oath, that I'm breaking now. We said we'd say it was the snow that killed the other two, but it wasn't. Nature is lethal but it doesn't hold a candle to man. </p>
-					</article>
-				</div>
-				<div>
-					<input id="ac-4" name="accordion-1" type="radio" />
-					<label for="ac-4">KATEGORI 4</label>
-					<article class="ac-large">
-						<p>You see? It's curious. Ted did figure it out - time travel. And when we get back, we gonna tell everyone. How it's possible, how it's done, what the dangers are. But then why fifty years in the future when the spacecraft encounters a black hole does the computer call it an 'unknown entry event'? Why don't they know? If they don't know, that means we never told anyone. And if we never told anyone it means we never made it back. Hence we die down here. Just as a matter of deductive logic. </p>
-                        <p>Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
-            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
-            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
-            to bring this functionality to all major browsers in the future.</p>
-                        <p>Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
-            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
-            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
-            to bring this functionality to all major browsers in the future.</p>
-                        <p>Today, Brackets only supports Live Preview for HTML and CSS. However, in the current version, changes to
-            JavaScript files are automatically reloaded when you save. We are currently working on Live Preview
-            support for JavaScript. Live previews are also only possible with Google Chrome, but we hope
-            to bring this functionality to all major browsers in the future.</p>
-					</article>
-				</div-->
+                            
+				
 			</section>
             <a href="home.jsp"><div class="btn">Back to Home</div></a>
         </div>
