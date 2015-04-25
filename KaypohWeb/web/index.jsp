@@ -20,6 +20,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <title>JSP Page</title>
         <link rel="stylesheet" media="all" href="bootstrap/css/bootstrap.css" />
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script language="javascript">
@@ -36,23 +37,30 @@
         %>
     function Beauty() 
     {
-        document.getElementById("image").src = "image/Maskot-Act-Beauty.png";
+        document.getElementById("image").src = "image/Maskot-Act-Beauty2.png";
+         document.body.style.background = "#FF81FA";
         <%CO=0;%>
     }
 
     function Music() 
     {
-        document.getElementById("image").src = "image/Maskot-Act-Music.png"; 
+        document.getElementById("image").src = "image/Maskot-Act-Music2.png"; 
+                 document.body.style.background = "#50FF54";
+
         <%CO=1;%>
     }
     function Sport() 
     {
-        document.getElementById("image").src = "image/Maskot-Act-Sport.png"; 
+        document.getElementById("image").src = "image/Maskot-Act-Sport2.png";
+                 document.body.style.background = "#6D9987";
+
         <%CO=2;%>
     }
     function Tech() 
     {
-        document.getElementById("image").src = "image/Maskot-Act-Tech.png"; 
+        document.getElementById("image").src = "image/Maskot-Act-Tech2.png"; 
+                 document.body.style.background = "#2CCC8A";
+
         <%CO=3;%>
     }
 </script>
@@ -62,13 +70,13 @@
     
         
     <div class="TopicArt"> 
-       <img alt="" src="image/Maskot-Act-Beauty.png" 
-            style="height: 85px; width: 198px" id="image" />
+       <img alt="" src="image/Maskot-Act-Beauty2.png" 
+            style="height: 500px; position:relative;" id="image" />
         <p>
-        <input id="Button1" type="button" value="Beauty" onclick="Beauty()" />&nbsp;&nbsp; 
-        <input id="Button2" type="button" value="Music" onclick="Music()" />&nbsp;&nbsp;
-        <input id="Button3" type="button" value="Sport" onclick="Sport()" />&nbsp;&nbsp;
-        <input id="Button4" type="button" value="Tech" onclick="Tech()" />&nbsp;&nbsp;
+        <input id="Button1" class="btn btn-default" type="button" value="Beauty" onclick="Beauty()" />&nbsp;&nbsp; 
+        <input id="Button2" class="btn btn-default" accept=""type="button" value="Music" onclick="Music()" />&nbsp;&nbsp;
+        <input id="Button3" class="btn btn-default" type="button" value="Sport" onclick="Sport()" />&nbsp;&nbsp;
+        <input id="Button4" class="btn btn-default" type="button" value="Tech" onclick="Tech()" />&nbsp;&nbsp;
         </p>
     </div>
         <div class = "searchform" >

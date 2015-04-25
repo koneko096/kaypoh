@@ -11,6 +11,7 @@
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
         <link rel="stylesheet" media="all" href="bootstrap/css/bootstrap.css" />
          <link rel="stylesheet" type="text/css" href="css/home.css">
+         <link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
        
         <title>HOME Page</title>
@@ -20,12 +21,15 @@
  
             <div class="col-md-4">
                 <form action="index.jsp" method="GET">
-                    <input type="image" class="logo" src="image/homefb.png" name="modeapp" class="btTxt submit" value="fb" />
+                    <input type="image" class="logo hvr-pulse" src="image/homefb.png" name="modeapp" class="btTxt submit" value="fb" />
                 </form>
+            </div>
+            <div class="col-md-4 logou">
+                <img src="images/HomeHome.png" />
             </div>
             <div class="col-md-4 col-md-offset-4">
                 <form action="index.jsp" method="GET">
-                    <input type="image" class="logo" src="image/hometwit.png" name="modeapp" class="btTxt submit" value="tw"  />
+                    <input type="image" class="logo hvr-pulse" src="image/hometwit.png" name="modeapp" class="btTxt submit" value="tw"  />
                 </form>
             </div>
         </div>

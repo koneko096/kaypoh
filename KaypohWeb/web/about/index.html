@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html>
+	
+	<head>
+		<title>Keypoh</title>
+
+		<meta charset="utf-8" />
+		<meta name="description" content="A parallax scrolling experiment using jQuery" />
+
+		<link rel="stylesheet" media="all" href="cssmain/main.css" />
+
+		<script src="js/modernizr.custom.37797.js"></script> 
+		<!-- Grab Google CDN's jQuery. fall back to local if necessary --> 
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script> 
+		<script>!window.jQuery && document.write('<script src="/js/jquery-1.6.1.min.js"><\/script>')</script>
+		<script src="js/parallax.js"></script>
+	</head>
+
+	<body>
+
+		<div id="wrapper">
+			
+			<header id="branding">
+				<h1>Keypoh Search</h1>
+			</header>
+			
+			<nav id="primary">
+				<ul>
+					<li>
+						<h1>Twitter Search</h1>
+						<a class="manned-flight" href="#manned-flight">View</a>
+					</li>
+					<li>
+						<h1>Result</h1>
+						<a class="frameless-parachute" href="#frameless-parachute">View</a>
+					</li>
+					<li>
+						<h1>Over the English Channel</h1>
+						<a class="english-channel" href="#english-channel">View</a>
+					</li>
+					<li>
+						<h1>About</h1>
+						<a class="about" href="#about">View</a>
+					</li>
+				</ul>
+			</nav>
+			
+			<div id="content">
+				<article id="manned-flight">
+					<header>
+						<h1>Twitter Search</h1>
+					</header>
+					<p>
+                    <!--form method="post" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]);?>">
+	<fieldset>
+		
+		<table  style="margin:0;padding:20;">
+		<tr>
+			<td>Keyword 		</td><td> <input type ="text" name="fullname" value="<?php echo $keyword; ?>">
+			<span class="error">* <?php echo $nameErr;?></td>
+		
+		</tr>
+		
+		<tr>
+			<td>Kategori 	 	</td><td><input type ="text" name="username" value="<?php echo $kategori1; ?>">
+			<span class="error">* <?php echo $userErr;?></td>
+		</tr>
+		
+		<tr>
+			<td>Kategori       </td>		 <td><input type ="text" name="email" value="<?php echo $kategori2;?>">
+			<span class="error">* <?php echo $emailErr;?></td>
+		</tr>
+		<tr><td></td><td><input type="submit" name="search" value="Submit"></td>
+		</tr>
+		</table>
+		
+	</fieldset>
+
+	</form-->
+                    </p>
+					<nav class="next-prev">
+						<hr />
+						<a class="next frameless-parachute" href="#frameless-parachute">Next</a>
+					</nav>
+				</article>
+				
+				<article id="frameless-parachute">
+					<header>
+						<h1>Result </h1>
+					</header>
+					<p>André-Jacques Garnerin carried out the first jump with a silk parachute on October 22, 1797 at Parc Monceau, Paris. Garnerin's first parachute resembled a closed umbrella before he ascended; at a height of approximately 3,000 feet he severed the rope that connected his parachute to the balloon, and the basket fell to earth. Garnerin emerged uninjured.</p>
+					<nav class="next-prev">
+						<a class="prev manned-flight" href="#manned-flight">Prev</a>
+						<hr />
+						<a class="next english-channel" href="#english-channel">Next</a>
+					</nav>
+				</article>
+				
+				<article id="english-channel">
+					<header>
+						<h1>Over the English Channel</h1>
+					</header>
+					<p>On January 7, 1785, Jean Pierre Blanchard and Dr. John Jeffries made the first flight over the English Channel, traveling from Dover to France. During the crossing the balloon lost altitude, so they began tossing everything in the gondola they possibly could, even their clothes. About two hours after take off, they crossed the French coast clad only in their underwear.</p>
+					<nav class="next-prev">
+						<a class="prev frameless-parachute" href="#frameless-parachute">Prev</a>
+						<hr />
+						<a class="next about" href="#about">Next</a>
+					</nav>
+				</article>
+				
+				<article id="about">
+					<header>
+						<h1>About</h1>
+					</header>
+					<p>Tentang tim kami <a href="index11.html">Read about it</a></p>
+					<nav class="next-prev">
+						<a class="prev english-channel" href="#english-channel">Prev</a>
+						<hr />
+					</nav>
+				</article>
+			</div>
+			
+			<!-- Parallax foreground -->
+			<div id="parallax-bg3">
+				<img id="bg3-1" src="img/balloon.png" width="529" height="757" alt="Montgolfier hot air balloon"/>
+				<img id="bg3-2" src="img/balloon2.png" width="603" height="583" alt="Frameless parachute"/>
+				<img id="bg3-3" src="img/balloon3.png" width="446" height="713" alt="Blanchard's air balloon"/>
+				<img id="bg3-4" src="img/ground.png" width="1104" height="684" alt="Landscape with trees and cows"/>
+			</div>
+			
+			<!-- Parallax  midground clouds -->
+			<div id="parallax-bg2">
+				<img id="bg2-1" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-2" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-3" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-4" src="img/cloud-lg1.png" alt="cloud"/>
+				<img id="bg2-5" src="img/cloud-lg1.png" alt="cloud"/>
+			</div>
+			
+			<!-- Parallax  background clouds -->
+			<div id="parallax-bg1">
+				<img id="bg1-1" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-2" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-3" src="img/cloud-lg2.png" alt="cloud"/>
+				<img id="bg1-4" src="img/cloud-lg2.png" alt="cloud"/>
+			</div>
+		
+		</div>
+	
+	</body>
+  
+</html>

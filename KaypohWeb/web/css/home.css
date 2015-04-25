@@ -13,5 +13,14 @@ body
 }
 
 .logo{
-    width: 120%;
+    width: 80%;
+}
+
+.logou{
+    overflow: visible;  
+    position:absolute;   
+    float:left;
+    left:240px;
+    width:40%;
+    display:block;
 }
