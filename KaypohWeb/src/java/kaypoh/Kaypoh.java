@@ -23,7 +23,7 @@ public class Kaypoh {
     );
     public List<List<String> > username = null;
     private List<List<String> > searchResult = null;
-    public List<List<String>> profpic=null;
+    public List<List<String>> profpic = null;
     /**
      * Constructor
      * input arguments as params : 
