@@ -59,6 +59,8 @@
 		<header>
                 <div class="maskot"><img src="images/Kaypoh-MaskotSmall.png"/></div>
 			<h1>Search <span>RESULT</span></h1>
+                        
+                        
 				
 		</header>
 			<section class="ac-container">
@@ -67,8 +69,9 @@
                                 %>
                                 <div>
                                     <% List<String> resultU= allresult.get(NamaKategori.size());
-                                        List<String> userU=Kepo.username.get(NamaKategori.size());%>
-					<input id="ac-<%=NamaKategori.size()%>" name="accordion-1" type="radio" checked />
+                                        List<String> userU=Kepo.username.get(NamaKategori.size());
+                                        List<String> picU=Kepo.profpic.get(NamaKategori.size());%>
+					<input id="ac-<%=NamaKategori.size()%>" name="accordion-1" type="radio" />
 					<label for="ac-<%=NamaKategori.size()%>">KATEGORI UNKNOWN <span> (<%=resultU.size()%>) </span></label>
 					<article class="ac-small">
                                             
@@ -76,12 +79,12 @@
                                             <%for(int a=0;a<resultU.size();a++) {%> 
                                             <br>
                                             <div class="picture">
-                                                <img alt="" src="image/Maskot-Act-Beauty.png"
-                                                     style="height: 85px; " id="image"/>
+                                                <img alt="" src=<%=picU.get(a)%>
+                                                      id="image"/>
                                             </div>
                                             
                                             <div class="Twit">
-                                                <p><h2>@<%=userU.get(a)%></h2></p>
+                                                <p><h1><a href=<%="https://twitter.com/"+userU.get(a)%>>@<%=userU.get(a)%></a></h1></p>
                                                 <p><%=resultU.get(a)%></p>
                                                 <%if(!Kepo.getLocation(resultU.get(a), 2).equals("")){%>
                                                     <form id="myform" action="gmap.jsp">
@@ -94,27 +97,33 @@
 					</article>
 				</div>
                                 
-                                        <% for(int i=0;i<NamaKategori.size();i++) {
-                                            List<String> User=Kepo.username.get(i);%>
+                                        <% for(int i=0;i<=NamaKategori.size();i++) {
+                                            List<String> User = Kepo.username.get(i);
+                                            List<String> pic = Kepo.profpic.get(i);%>
 				<div>
 					<input id="ac-<%=i%>" name="accordion-1" type="radio" checked />
-                                        <%String name= NamaKategori.get(i);
+                                        <%String name= NamaKategori.get(i).toUpperCase();
                                         
-                                        List<String> result= allresult.get(i);%>
+                                        List<String> result= allresult.get(i);
+                                        if(i!=NamaKategori.size()){%>
                                         <label for="ac-<%=i%>">KATEGORI <%=name%> <span> (<%=result.size()%>) </span></label>
-					<article class="ac-small">
+					<%}else {%>
+                                        <label for="ac-<%=NamaKategori.size()%>">KATEGORI UNKNOWN <span> (<%=result.size()%>) </span></label>
+                                        <%}%>
+                                        <article class="ac-small">
                                             
                                             <% for(int a=0;a<result.size();a++) {
-                                            String username=User.get(a);%> 
+                                            String username=User.get(a);
+                                            String picture=pic.get(a);%> 
                                             <br>
                                             <div class="picture">
-                                                <img alt="" src="image/Maskot-Act-Beauty.png"
-                                                     style="height: 85px; " id="image"/>
+                                                <img alt="" src=<%=picture%>
+                                                      id="image"/>
                                             </div>
                                             
                                             <div class="Twit">
                                                 
-                                                <h2>@<%=username%></h2>
+                                                <h1><a href=<%="https://twitter.com/"+username%>>@<%=username%></a></h1></h2>
                                                 <p><%=result.get(a)%></p>
                                                 <%if(!Kepo.getLocation(result.get(a), 2).equals("")){%>
                                                     <form id="myform" action="gmap.jsp">

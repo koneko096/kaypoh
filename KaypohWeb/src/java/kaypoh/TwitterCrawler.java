@@ -55,7 +55,7 @@ public class TwitterCrawler {
         return ans;
     }
     
-    public void Call(String keys, List<String> res, List<String> uid) throws Exception {
+    public void Call(String keys, List<String> res, List<String> uid, List<String> pic) throws Exception {
         List<Status> query = null;
         try {
             query = 
@@ -66,6 +66,7 @@ public class TwitterCrawler {
             for (int i = 0; i < query.size(); i++) {
                 res.add(query.get(i).getText());
                 uid.add(query.get(i).getUser().getScreenName());
+                pic.add(query.get(i).getUser().getProfileImageURL());
             }
         }
     }
