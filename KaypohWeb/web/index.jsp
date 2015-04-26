@@ -24,6 +24,7 @@
         <link rel="stylesheet" type="text/css" href="style.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script language="javascript">
+        //inisialisasi List kategori
         <% List<String> topics = asList("Health & Beauty", "Entertainment", "Sport", "Politics");
           List< List<String> > topicCategories = asList(
         asList("Obat", "Perawatan Tubuh", "Perawatan Wajah","Fashion"),

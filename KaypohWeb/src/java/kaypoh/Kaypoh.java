@@ -23,7 +23,7 @@ public class Kaypoh {
     );
     public List<List<String> > username = null;
     private List<List<String> > searchResult = null;
-        
+    public List<List<String>> profpic=null;
     /**
      * Constructor
      * input arguments as params : 
@@ -35,6 +35,7 @@ public class Kaypoh {
     public Kaypoh(String[] args) throws Exception {
         List<String> contents = new ArrayList<>();
         List<String> users = new ArrayList<>();
+        List<String> picture = new ArrayList<>();
         StringProcessor st;
 
         /* Set matching method */
@@ -50,9 +51,11 @@ public class Kaypoh {
                 int N = topicCategories.get(i).size();
                 searchResult = new ArrayList(N + 1);
                 username = new ArrayList(N + 1);
+                profpic= new ArrayList(N+1);
                 for (int j = 0; j <= N; j++) {
                     searchResult.add(null);
                     username.add(null);
+                    profpic.add(null);
                 }
                 break;
             }
@@ -63,7 +66,7 @@ public class Kaypoh {
             twitter4j.conf.ConfigurationBuilder config;
             config = new twitter4j.conf.ConfigurationBuilder();
             TwitterCrawler x = new TwitterCrawler(config);
-            x.Call(QueryGenerator(args[3], 0), contents, users);
+            x.Call(QueryGenerator(args[3], 0), contents, users, picture);
         } else {
             facebook4j.conf.ConfigurationBuilder config;
             config = new facebook4j.conf.ConfigurationBuilder();
@@ -76,7 +79,7 @@ public class Kaypoh {
             boolean categorized = false;
             String content = contents.get(j);
             String user = users.get(j);
-
+            String pic =picture.get(j);
             for (int i = 4; !categorized && args[i] != null; ++i) {
                 List<String> keywords = parse(args[i], ",");
 
@@ -85,14 +88,18 @@ public class Kaypoh {
                     if (st.search(content)) {
                         List<String> list = searchResult.get(i - 4);
                         List<String> list2 = username.get(i - 4);
+                        List<String> list3 = profpic.get(i - 4);
                         if (list == null) {
                             list = new ArrayList<>();
                             list2 = new ArrayList<>();
+                            list3 = new ArrayList<>();
                         }
                         list.add(content);
                         list2.add(user);
+                        list3.add(pic);
                         searchResult.set(i - 4, list);
                         username.set(i - 4, list2);
+                        profpic.set(i-4,list3);
 
                         categorized = true;
                         break;
@@ -105,14 +112,18 @@ public class Kaypoh {
                 int N = searchResult.size();
                 List<String> list = searchResult.get(N - 1);
                 List<String> list2 = username.get(N - 1);
+                List<String> list3 = profpic.get(N - 1);
                 if (list == null) {
                     list = new ArrayList<>();
                     list2 = new ArrayList<>();
+                    list3 = new ArrayList<>();
                 }
                 list.add(content);
                 list2.add(user);
+                list3.add(pic);
                 searchResult.set(N - 1, list);
                 username.set(N - 1, list2);
+                profpic.set(N - 1, list3);
             }
         }
     }
