@@ -1,100 +1,100 @@
-tw Sport #ea,#gp,#ex,#us,#of,#pa kk,pi,kk,gw,es,ld,kb,ie,ba,ux,fr,or,hi,ob,qb,dv,lo,ss,zs,nv,ub,ro,uk sy,da,uh,lg,kf,sn,gn,mw,mp,cp,rb,uw,pp,bz,dy,mk,ys,ik,wx,gp,kh,ru mq,kp,so,mc,am,fm,ct,qj,qv,nm,ti,wi,ha,ah,cd,en,cc,gs,nl
-tw Health & Beauty #nk,#pd,#eq,#gl,#os,#hl,#ky,#uq,#bm,#wr qh,gy,mn,to,gj,jq,gs,ie,mm,on,ct,hv,wy,fl,cu,du,dq ca,xr,ua,be,zy,ca,uq,zd,qu,ol,kw,lo,yx,pv,ik,ia,ig jz,av,id,mq,yr,pe,so,ia,ho,jk,ep,dv,md,bi,cz,fn,cs,mc,qw,qn,ap gt,wb,es
-tw Sport #qd,#hk,#cg,#al,#ag,#om,#jz,#mn lp,ra,sm,qu,fg,hn,en,tc,fa,ll,et,wa,yb,mx,oj,lx,rp,pd,ba ht,uu,mp,gx,kl,bu,ad,tk,zt,fz,lh,lf,vw,kg,pe,wd,io,bx,jh,oi ap,xw,ev,ga,pm,ia,fs,by,ip,hk,fp,ek,ck,pz,kf,nc,bj,xh,js,oq,kc,jm,ag
-tw Health & Beauty #jn,#ur cs,op,wa,pa,sa,qk,si,ef,bt,nc,jk,tl,fj,od,kx,sp,lp,xc ku,az,ez na,sc,yf,if,eb,fe,rn,yg ai,kl,ls,dd,wk,yv,uc,vl,uf,tv,ex,yb,ui,wy,xa,ze,lv,bo,vj,ip,ij,kk,uh,ff
-tw Sport #bw,#jc,#ow,#pp,#vj,#lo,#ty,#vy,#bv,#bp,#ui,#qa,#cq,#kw,#xt,#sz,#yn,#fg,#do,#tu,#kq sy,qv,oh,yu,hk,uo,ip,dc,yz,qh,gu,wh,eu,dx,ch,lm ez,rs,eu,pt,hu,au,bu,mb,qt,np,fn,el,jc fo,dk,kc,qb,vg,ov,wj,tj,ps,ab,pi,xw,ru,qh,bf,lv,gm
-tw Entertainment #zy,#dp,#dk,#my,#zx,#ac,#ia,#sb,#hq xk,dw sp,hu,vg,dh,uw,go,ry,vy,ta,ok,xj,me,wv,en,vd,pz,uc,dg,dz,ag sn,ck,rg,tj,nr,ic,rz,uz,aq,np,vg,zc,ll,cu,sg,fw,pw,ua,ru,ri
-tw Politics #ip,#qq,#yc,#lm,#el,#uo,#uf,#lg,#qb,#nt,#mn,#cw,#ic,#mb,#hi kb,tu,le,ch,pl,sd,ta,cq,uu,nx,ok ye,ls,fs,cp,xk,xu,xq,nk,ml,iv,gu,sm dw,sg,sf,ue,tr,ge,ly,qs,wn,wc,zm,ia
-tw Sport #xk,#vr,#fs cb,og,ej,yk,oa,in,nn,lj,cg,hj,ig mu,at xb,fj,jg,qe,nk,nh,wv,ga,qj,vv,dc,wy,pd,cz,qd,mb,bh,vk,io
-tw Sport  qz,xp,fo,of,kn,gh,nw,rc,zb,lz,kk fc,qg,mr,cv,oj,jw,tn,ll,uk,gk,xd je,om,of,ll,vy,na,xa,my,xy,fj,qb,nh,gq,wg,uz,rs,bs,cj,pz
-tw Sport #uy,#ab mi,br,gl,ep,zn,wy,jl,cb,pf,if,lf,cx,xc,vm,ja,dw jy,tr,nm,md el,qr,rh,mt,wf,tl,il,ow,yx,wv,ou,ee,ry,bs,vb,ic,pg
-tw Entertainment #fb,#mv,#hm,#op,#vt,#it,#dv,#gp,#bo,#ps,#ig,#rz,#ng fs,ew,qf,ys,sv,ty,cz,sm,cj,ra,sz,rb,cr,db,gr,an mg,vy,oy,hj,jd,ce,md,pi,if,yx,th,sp,dl,eh,nr,os,af,ab,uh,ow,em lo,vr,rh,zj,hx,kl,am,ln,oh,fg,ur,ni,bs,vd,sd,fl,bl
-tw Politics #cl,#sb,#rp,#xr,#nb,#py,#yn,#oz,#cp,#pl uj,kr,aw,by,va,jo,cg,hp,ba,ud,jo,az,bt,pv,xa wn,vn,mf,jx,wx,vs,rn,rq,el,nb,cj,yg,eg,zb,lx,gq,mh,do,jh,nt,uf,me,rf,bz ra,lm,yy,cl,lh
-tw Sport #hm,#qo,#kr,#cb,#jr,#kj,#ab,#tm,#tm,#dv,#mn,#df,#uq,#ud,#bw,#vc,#zy cz,wd,zb,rw,ip,nq,wk,wx,gs,tr,mp,ga,hq,kn,ls,ve,ob nr,ys,aq,bw,tx jz,xl,be,me,pn,zt,zi,kp,bf,pi,jv,nz,sb
-tw Entertainment #yw,#vv,#kt,#zz,#gd,#mo jr,dl,bc,qp,nx,ek,xn,qg,md,jh,gi,as,uq,bo gq,er,ot,ok,gt,qy,ov,ra,zw,ho,uz,ug,bg,fh,jj,jy hp,iw,yq,br,za,ps,xq
-tw Politics #zc,#xn,#sv,#mb,#sd,#pl,#bl,#li,#iw,#ne,#vq,#io,#rn,#od,#ht,#pz,#nk,#th,#rl,#ei,#wt lr,cs vo,xt,za,zz,un,vi,nb,mt,qi fx,lf,xd,cz,ky,xr
-tw Entertainment #bi qb,sm,ox,eq,nc,hp,ds,xe,lh,ku,eq,zm,he,if,cz,ct,ta,xa,fk,ro,in,dr,gl in,qz,cq,vr,jm,yy,wm,bv,ns,pr,vu,qq,mb,nf,zd,yb,ou,ht aa,mz,tm,df,aw
-tw Entertainment #er,#mv,#on,#tk wm,ep,gt,uh,ci,jg,gg,qk,lo,ig,xq,gh pf,xk,vj,ln,wh,vm,nt,qn,gj,op,bn,oc,sd,po,zl tz,sm,dq,gs
-tw Entertainment #un,#pf,#ky,#yi,#xr,#bc vv,sj,iv,qw,df,ac,cp,om,ow,gn,dh,mb,tl,wn,yn,on,fy,ts,wp yx,wi,nq,ty,vu,qe,ba,jl,ix,vf,my,li,ky,cb,hj,wt,af dl,ij,un,wc,jz,qh,ia,ef,gy,hs,no,ro,rp,ys,vo,dy,wl,uw,qa,yi,an
-tw Health & Beauty #ms,#jq,#xu,#lh,#ih,#yz,#or,#gs,#mt,#df,#qp,#at,#ic,#va,#fk  gg,mw,mk,eo,xn,jl,et,mc,uk,gh,rf,fm,hp,wn,kk,xx gl,lw,mh,ja,ef,nf,ta,iu,eg,ix,gh,mi vx,yb,fr,na,bl,pm,dj,mu,to,ci,yn,wi,lg,qm,hm,ub
-tw Health & Beauty #ye,#cv hl,wh,qk zv,qp,ah,fr,ts,wr,uc,xt,hy,bx,co,jo,io,bl,nr,np,hf,bl,ju,xf,dd,tf,mq dx,uh,cd,sn,vb ma,as,tw,km,lv,xi,pg,hj,ea,rk,tu,ez,kl,zp,on,ef,dl,oe,if,mo
-tw Health & Beauty #yg,#hx,#vy,#sw,#ei,#wd,#vt,#gw,#bd yb,vp,xo,qf,yk,bs,xa,st,sh,pu,lw jd,aa,qj,nq mx,ny,pp,vc,hd,vr,xs,ax,ym,pi,tt,wf,on,lc,js,ey,tz,rz,eu,nr,hd,vi,mq,ap uu,yz,fm,wy,da,ko,pj,vl,aj,hz,hy,uy,ux,ib,jm,bo,ix,wv
-tw Entertainment #yz,#gq,#fc,#ez rq,pw,ak,tz,fi,pf,mb,yn,jt,tr,ag,gn,xp,ae,jp,zz,us,rh,rp tz 
-tw Sport #bv,#lc,#fc,#uo,#eq,#jk,#oa,#xr,#fq,#ci,#pj,#bf,#xa,#mc tt,lz,xt,ju,yb aw,dl,ku,uo,nh,dz,pu,ks,dl,gz,hn,wj,yq,of,ft,kg,jv,nx 
-tw Entertainment #eq,#xg,#pt,#qc,#aa,#ew,#cb ox,ys,bn,bg,tu,zu,fc,ve,gb,kc,ej,bv ze,gm,re,zu,hd,pn,cp,tt,wi,pe,ka,cs,dz,iq,ko,lf,dz,ax,ki rh
-tw Entertainment #na,#wj,#ax bl,fb,qx,yk,nr,qr,pd,jx,sf,of,ij,zo,nv,jx,tg,kz,sg,be,ln,qf,kj,cc nw,ft,rk,qb,vz,de,mw,lw,cn,lp mh,pt,bz,cc,ts,pl,ea,bp,lz,qy,wa,al,tk,mf,gy,ep,ov,kr,jm,gb,mn
-tw Sport #cy pu,jl,qv,ag,qd,jr,ph,nu,bi,zd,jq,km,yn,sd,sx,df,rk ra,ve,ko,gc,td,dn,bu,km,bw,sw,fg,cc lj,dg,aj,rx,ur,qs,yz,za,ts,ps,gr,vc,ko,gs
-tw Entertainment #lb,#go,#be,#rs,#do,#vw,#uj,#cz pb,av ho,xl,vw,fp,yy hn,kv,cr,xr,sx,vb,zi,cw,cw,lr,wt,bd,ob,in,tz,fo,vt,tz,ew,fs,wx,xw
-tw Sport #fa,#jq,#iz,#vj,#pm,#le,#ps,#og,#cx,#px,#mr,#bb,#cw,#dj,#sg,#ie,#av,#tk,#qu,#vx,#fg bn,da,vh,fr,ta,eo,fu,zn,cm,du,wg,lt,kn,ql,by,se,at qt,od,nl,nl,pg,on,ex,pk,gk,tv,ga,qk,qt,hc fv,qo,mp,kp,cp,ja,gm,sx,sp,ej,ct,mh,qr,lf,mg,yy,yc,qc,ch,mc,sz,om
-tw Health & Beauty #sn,#ho,#gk,#wf,#uf,#rc,#nl,#ra,#js,#vq,#og,#yi,#wn,#wz,#ze,#rs,#hu,#kb,#qa,#at,#gh  ku,fn,ob,jv,aa,gq,un,we pn,xp,ul,pg,zg,jj,cn,zy,ar,ux,xc,mt,ss,gh,gl iq,uu,ji,mf,oj,rh,ts,rn,ew,yl,ms,co,hg,hc,xs,ud
-tw Health & Beauty #pp,#xs,#iv,#zc,#xv,#go,#kl,#te mf,sy,am jd,qf,au nh,vp,wl,eg,ur,rh,ha,hi,fe,yy,jc,as,ij,ib,vz,ee,ge,oi lo,ze,ps
-tw Entertainment #kp ei,rm,cn,zj,mh,jg,co hd,ms,hi,ek,vh,zj,bc yi,un,cf,qp,em,ak,my,qj,bn,gc,rp,kz
-tw Health & Beauty  ue,en,cw,vb,sa,td,nm,up,ob,gy,kk,lt,rc,iw,ea,uv,gg,cg,tp,zq ba tj,wt,rd,wm,se,cb,bh,dv,lg,eh,xu,ve,ue,wc,ro,py,et,bf,dg,bj,bl,lx,iz il,xv,pv,pi,mc,yb,zs,ty,fd,cv,lw,fs,ue,gr,ev,sj,cl,fj,jb
-tw Health & Beauty #zr,#dq,#qi,#rz,#sz,#wb,#hl,#it,#te,#wu,#rc,#tc,#qk,#ql,#cw,#wi,#gl,#ma,#hi,#yb wq,gp,hf,rm,bz,my,uu,pz,xe,rb,eh,vm,rd,xn,wc,cg,rr,kt,hp,vm,tq,ky,mw,hh zp of,cr,uy,is,af,kj,km,za,ei,ny,ou,vm,rs,nk,kc,cm,ab,ju,is,gf,wo,in,tu,rv dz,cn,fu,fk,ix,kr,mq,cl,nm,ia,dg
-tw Politics #vo,#wz,#wr,#lw,#sr,#vw,#mc,#ld,#as,#ad,#vv,#ui,#ui,#jn,#wf,#zv,#bg ig,sc,wa,lo,nd,cj,gq,pf,zd,kq,nb,el,mi,kf,ae,lh,ud,dw nw,gp,za,ya yg,ig,gb,rp,nu,tf,zt,di,vd,zm,kg,wd,fc
-tw Sport #md,#ek,#ft,#yj,#kw,#cw,#yb uf,vu,qb,ay,ym,zi,xe jz,ux,nz,ie,bk,et,sb,iz,vg,fd,ei,ol,ov,tc,wt,ih,nf,iu,lz,wu am,ip,xx,op,zc,cf,iz,fr,co,sg,fq,oo,qy,sn,tm,od,fo,ki
-tw Politics #fe,#rp,#tn,#xo,#pq,#mf,#tr,#nl,#jb ma,eq,ux,wl,va,vu,uh,yv xp,zi,yn,eh ks,gl,zg,yw,ha,tb,if,ls,ya,gx,wu,il,ga,nw,dd
-tw Health & Beauty #gh,#fv,#zk,#ho,#xd,#yt,#mi,#fo,#ed,#ti,#dl,#ek,#wq,#ka,#xj,#ub,#ts,#mc,#sf,#rl,#mr,#zs,#pf za,fi,te,vi,xr,nt jy,oc,ms,du,la,nj,pl,mu,tp,ab mv,ng,se,di,tt,tv pv,zg,gx,ue,or,qt,mr,ar,kj,tk,ut,ou,lp,zb
-tw Politics #iq,#fk,#qd wx,md,wy,ew,px,re,cq,px,rx,ig,er,pn,nh,js,kn,oj,oz,pl,qx,bm,vd ko,ar,xy,ct,xc,cn,kp,ya er,dn,kt,lc,zf,hc,kj,oq,qb,iw,sw
-tw Politics  ql,lg,to,ga,to,ac,hi,vq,ui,ph,ur,ck,gk,jf,nj,mc,cb,zf,np,wv,bt,ag,fa,sw zn,hi,ln,ny,of,qk,jn,kj,em li,jn,eb,mf,pz,uo,pm,xj,dw,vp,kk,rc,yl,xs,jr,mh,gs,se,jt,od,xq,et
-tw Health & Beauty #sj,#ej,#tl,#gb,#ee,#pp,#dw,#ix,#xv,#ki,#dd,#cc,#gf,#wm,#vs,#lb,#nd,#nm,#ls,#dw,#hn si,ix,qw,wm,mn,ik,rc tu,ha,du,zi,yc dc,fs,rg,cc,hf,cb,ck,vp,sb,oq,ti,km,zz,en,tu,qk,uk,cw,ye,oi,rb hk,sl,dc,pz,bh,ij
-tw Politics #vw,#gw mr,iv,bg,lb,vv,fi,xe,lp  gb,vd,xm,ep,sj,mb,wd,mr,ct,mj,lu,oc
-tw Sport #cl,#mh,#ts,#ms,#hb,#ju,#gk,#em,#qr,#ej,#np,#fr,#sk,#wu,#qm,#td,#tm,#ft,#kv,#bt,#lf,#di,#hr,#lc xa,sx,dh,pg,vx,bf,fz,oi,ep,aq,am iz,kb,da,gp,db,rb,vi,mq gw,ax,gw,tv,qp,gs,vb
-tw Entertainment #ol,#ri,#zj,#sc,#ir,#uj,#pv,#tz,#iw fv,lf,px,fk,vg,bp op,cc,py,ny,jv,ab,nt dy,ef,vz,ig,he,ep,nw,tv,mo,ai,oj,uz,ai,bc,or,ts,ew,mb,zp,vg,le,ft,uz
-tw Politics #qd,#pw,#dw,#zc,#ec,#rx,#fb,#xt sp,fk,vu,pg,it,xb,yy,dp,es,xx,uf,az,lw,hw,wj,rn,wq,fq,lh,va,yz,pd  fi,qf,el,ww,bh,fq,im,rc,hr,az,bs,cq,fc
-tw Entertainment #dk,#qr,#gk,#ns,#qk,#rd,#nb,#ml,#xx,#qz,#lp,#ko,#vv,#lt,#bk,#ia,#ua,#uo,#ca ey,bt,cr,bz,nn,hh,zg,zq,rc,gz,mw,lc,dd,ln nv,zj,re,nc,qw,kq,fp,hy,ru ac,id
-tw Sport #jh,#vf,#na,#py,#qs,#wd,#rs,#fz,#kw mj,zr,aj,ob,ub,yx,lw,hb,iv,gt,hr,fx,db,vy,hu,dy,uv,jj,pr,qi,df,ru ir,ld,dk,oc,sp,ru,sb,rt,ub,wy,st,pf,fp fj,uu,bh,gr,gw,vg,vm,qa,hc,mj,fy,lq,oh,ft,cb,jz,lj,fw,xh,vt,ju
-tw Entertainment #el,#jk,#ev,#vb,#ik,#xp,#ta,#vj,#lu,#rq,#wj,#bp,#bv,#de,#gm,#jo,#ho,#yl,#xh,#gv,#pk re,sw,fe,ej,zn vx,gn,ds,rc,xb,hx,tk,mk,kf kc,un,fw,cn
-tw Sport #me,#jd,#rt yv,ej,il,tt fu,af,ra,fs ns,oi,rj,kr,mx,wq,bm,nq,yq,nd,on,wt
-tw Sport #bo,#np,#wt,#dt,#gm,#cr,#qu,#be,#uh,#pk,#io,#tx,#jo,#mx,#mw,#pu,#yf gn,ge,mu,rz,vy,mu,mz,gp,fb gi,ic,sq,zo,iw,aj,kw,dx,rk,jx,ze,by,lt,qh,xd,cx bt,hr,lm,iy,yb
-tw Health & Beauty #ja,#rk,#ew,#lu cm pl,nf,an,of,pw,gi,sv,xi,rn,oc,hk,fn,sg,je,yq,sc,ts ws,et,jc,ts,td,ex,ek,uz,sw,pc,zx,fv,uu,jw,vq,kq,gw,zj,gh hk,hn,rs,fp,ym,tk,if,cn,qo,eq
-tw Health & Beauty #na,#vk,#oo,#lf it,ux,tx,ha,op,fv,av,io,tb,qp,pt,wn,il,ng,sh,tp,xm kp,mv,eg,ae,md,hi,sz,wh,ht,qr,km,ne,dm,td,qm,hu,re,ox,ym,cq,cx,ql ko,gb,ja,eo,ns,gl,pu,pb,rr,nf hc,kh,km,ao
-tw Sport #hn,#tn,#ff,#fp em,sw,rc,ao,lp,fy,gd,yd,up,gq,iw,pp,zv,sa,vw,zx,tg yq,sz,vp,eo,vg,qf,fm,fd nt,ez,eh,mj,hb,bd,zy,mw,dg,ne,ld,uh,gd,ps
-tw Politics #bu,#bc,#qu,#bb,#xt,#eq,#hi,#su,#lz,#al,#bf zn,xm,oz,sh,pk,qf,ba,kt,zs,sr,ox,ji,qw,mt,cm,rz,ar,fd,ex,wm,qq bi,kf,tv,oi,de,py,qn,qe,xl,jm,iq,xo,hg,vk,ux,am,gb,on,bj,ua,pw ma,wu,zh,ji,yu,wa,hv,xj,hn,qb,ve,kh,kf,xq,sf,xw,vl,yh,tn,wt
-tw Politics #aq,#wp,#yc,#zf,#sv,#pb,#rn,#qf,#fb,#ko,#ao,#gn tm,hx,yr,iu,wx,fd,vu,ie,fq,vc,hm,by,fh,la,wc,id,du,tk,ao  wb,ur,em
-tw Health & Beauty #pf,#op,#pm,#zi,#md,#qz,#zf,#sh,#yj,#cy,#rc,#ln,#dm,#to,#wl,#av,#dh,#fa,#zs,#yx,#fv,#qb,#sa,#uz hy,sg,wh,in,fj,sy,hb,yw,pi,sp,fl,pi,yd,xa,bw,ug tb,sn,su,zq zg,hj,ik,gk,mt,ue,zk,fd,ak,gl,jy,yo,ow,ep,us,yc,hh,gn td,gv,aj,cf,oh,sz,ck,ul,ra,um,eq,ka,jz,xh,mg,fa,aa
-tw Health & Beauty #sy,#lc,#ks,#zd,#ng,#eu,#xs,#mi,#ss,#dy,#fa,#wj nq,ov,sk,pp mi,er,sr,zf,sc,uu,pd,jh,ec,um,qv,sj,an pk,sc,qx,ts,ph,cf,nh,nz,ju,he,am bb,zn,po,ri,cm,bs,iv,xo,oe,ir,ib,ku,jp,dq,ur
-tw Entertainment #te,#fm,#dg,#uu,#ju,#os ao,pr,iq,qu,kv,iw,zn,vk,nd,we,lm,dj,nj,sf,yi,qc,ao,hq,pg,uj xa,wi,el,xa,zz,sx,tw,ib,mq,vz,ec,kr,og,vb,jg,it,up,ps,eo,lz,su va,me,kj,fe,hw,rn,nk,hg
-tw Health & Beauty #mb,#hn,#rf,#ox,#jf,#hq,#up,#kj,#ym,#na,#vg,#ow,#ja,#kc,#pj,#tw,#it,#qt uf,sg,zg,vj,fz kz,bw,xg ja,gu,jo,ic zn,la,wd,cq,vl,nm
-tw Sport #hb,#mf ic,on,uc,eu,nt,ju,eb,np,pz,nc,yp,lw,uz,zc,oh,cc,pd  fc,dj,xb,ec,ty,ir,mo,sf,gf,nn,gg,wa
-tw Sport #gx,#yf,#bi,#ai,#nm,#us,#kk lz,ue,ya,gs,em,tl,kh,um,dg,ts,oi,on,vt,oq,hf,ii,iw,pe pe,sk,qt,pw,ak,wh,jw,jb,qk,yq,wo,mn,bg,mf,rr,iq rn,yp,jm,pf,rx,ek,mh,qz,jk
-tw Entertainment #qa,#sx,#ma,#mh,#pm,#bc io,qu,am,bh,ez,ok,da,ur,rv,rx,av,gc,ep ou,ax,mr,fz,kw,rq,vr,kx,iw,tm,ou,wf,en,qk,bw,sf,am,lv,wb,rn,ix,ev bd,ij,cb
-tw Entertainment #ff,#bl,#gz,#fa,#qe,#kp,#uu,#kw,#ce,#si,#dt,#ej,#kd,#pv,#xk,#he,#gy,#kz,#tb,#rk,#dw ek,nt,eb,ws,nl,ha,st,so ru,zd,tf,xs,kk,wn,me,fb,kn,nj,mt,au,pi,rz,wp,bx,fz,da,cj,bg wz,xu,zu,se,jo,lg,nx,wg
-tw Sport #fa,#de,#nv,#tm,#yb,#de,#ap,#br,#em,#gc,#lz,#gk ca,vp,ue,qu,bx,uz,op,dq,rv,rr,vx,wh,by di,ei,zu,iy,cg,su,sh,fb,vs,fh,hq ia,jq,kv,kz,kn,gq,kl,hn,fy,pv,pk,xq,xx,st,om,hy,zb,ov,ks,kt,sn,pa,re
-tw Entertainment #pg,#qe,#sr,#th,#du,#op,#qc,#zx,#pr,#yo,#xa,#il,#yk,#sp,#ad,#rz,#rk,#ah,#bd,#ex jq,et,ej,st,ck,mv,xf,ll,ay,fd by,ui,fz,xj,gm,oh,ey,da,pi,tj,ec,um,jx,jp,qe,qv,jy,hm,bw,zj,ad,gk,cz rm,yh,nt,ko,fy,eo,hx,kv,dq,ku,hu,xn,kk,gp,vh,yw,zy,kw,ya
-tw Health & Beauty  sm,ts,kt,jz,jm,ob,lp,vx,sp,vk,oy,bu,rl,qp,ge,pi,wm,ex,aa dx,fn,mr,oh,vt,va,pq,wt,kv,vh,so,um ms,zs,vr,rz,ss,wg wr,xt,db,jk,oz,mf,yi,qe,vl,ls,xy,lp,ah,ki,wo,fm,mr,my,dv
-tw Politics #wb,#cn,#ec,#jf,#kf,#ra,#hz,#mt,#oj,#hx,#ae,#ml,#hz,#fv dl,rw,nw,uo,dl,jd,wr,ev,kv,co,sw,rx,pg,ma,ld,cm,sr,zv,kq,rz,hd,yb,ho jd,vs,ga,ab,tv,yi,tf,ln,aq,na,vq,jn,bo,ti,qs,dc,hp wg,vx,lj,sw,sq,jq,jd,su
-tw Entertainment #vc zc,tx,jv,ck,su ti,ay,lx,dw,vj,jn,us,yu oe,qh,as,tt,jt,td,si,ie,in
-tw Sport #ek,#yu,#gk,#uu,#hw ds,ei,wx,fm,nk,oe,yo,db,zd,au,yj,dd,st,sd pb,ib,vn,ab,rn gd,sc,gd,uy,vy,yg,mu,dp,ka
-tw Health & Beauty #pu,#ry,#pr,#dr,#oh,#ri,#ya,#kz,#zj,#qn,#ba,#sb,#uv,#hq,#ev,#hs,#bb,#eu,#hw,#lu ol,ir,by,qr cp,wp,kg,ow,gi,qp,yh,is,nu,da,hv,qv,ql,lq,rr,lp,ty,gh,ok,cf xm,nv,ec,ml,db ux,eu,fr,fw,xs,rr,cy,mq
-tw Sport #oy,#fv,#qc,#bw aa,dz,ia,vj vq,gu,jx,vo,ro,uf,xl,ru,ny,xx,ye,zz,ou,vr,zr,xl,py,nw wy,rv,pw,cl,fw,gp,dg,fz,kr,al,ae,kj
-tw Politics  ma,kg,pb,jp,km,lv dl,oc,zx,hh,bi,in,vq,zw,hj,rk de,yx,gw,br,ss,zv,mh,na,zk,io,fc,bt,ek,hn,po,eu,va,nu,ob,ex,iq,wi
-tw Entertainment #yi,#rr,#xe,#uv,#hr,#nb,#gi,#qx,#ol,#bj,#am,#rc,#so,#qx uj,ja,ua,nn,gz,lx,eg kx,wp,vm,qs,ea,vl,be,qn me,cq,kd,ge,zb,bi,sb,ho,la,er,ia,ry,uh,vc,xr
-tw Health & Beauty #kj,#kv,#dv,#kl,#fh,#nv,#qs,#yu,#qj,#ba,#fq,#wm,#vq,#oo,#nw,#io,#fm,#ln,#yy,#ta,#si,#if np,ym,ou,tv,ph,ah,ql,zy,sd,xn,bx bm,uz,qy,pq,eb,jb,rt,ss,vw,zl,vq,fn,tx,gq,xa,xj,ge,sy,rg,je,ht,tq,mu hk,dv,sy,qz ui,rh,wz,rq,pp,hx,uo,bf,ui,kl,gk,de,ae,bv,ga,fv,lq,ss,eq
-tw Entertainment #is,#nu,#fp,#cy,#uy,#fe,#rc,#pp,#sl,#hn,#qx,#vi,#og,#ke,#jd,#pn,#qp,#bp,#cj,#gl  zv,dd,zu,am,ja,xl,al,er,am zs
-tw Politics #lo,#ln,#fw,#zo,#pg,#li,#fd,#ap,#qi,#vx,#kq,#xe,#yn,#mq,#ba,#yr,#id,#gt,#lp,#vy,#ew gd,zn,vh,es ip,py,sq,vh,pz,vh,mi,hx,cr,ze,ot gq,ni,vk,jx,yg,ow,ir
-tw Politics #qr,#qd,#wp,#xl,#xj,#ga,#tx,#wd,#gz,#mr,#lh,#zj,#wl,#ef,#au,#tv vs,ec nk,mo,xa,fl,xa,od,tq,qt,nq,sz jk,lp,bs,kj,xq,os,mc,eo,vv,it
-tw Entertainment #la,#vv,#mc,#sk,#dv,#qg,#nf,#ni,#bp,#vn,#yq,#af,#eb,#ob,#fs,#hv,#uc jw,le,vm,ab,wr,mj,eo,xv,vn,lb,kk,cn qk,nl,xd,gx,sb,xo,rs,ld,js,ab,om,rx,we,ff,ln,bn,aa,am,vq,hs,hj,hv rl,sx,me,pz,yd,um,ux,nt,ot,mo,tn,dw
-tw Entertainment #dg,#dy,#lg qe,mr,pl,xy,nw,ru,dp,bb,wk,pm,uo,bh,dt,ku,hw,hg,uy,oo,ym,cl,om,js,tw,cz gs,we,vn,ah,mt,fo,mu rw,nm,sk,kx,ee,ga,ot,fz,od,hv,kx,pb,wh,bm,al,tj,um
-tw Sport #ww,#ob,#my,#pf,#bu,#gy ny sf,pk,jz,uq,yg,qg,tx,he,bf,ch yd,oi,ci,wh,vw,ff,ga
-tw Sport #ny,#ds,#xh,#dz,#db  rr,jj,zm,sd,jt,qb,qz,tp,ig,jo,cx,tn,tb cm,zt,qe,on,bb,lp,fq,zj,cn,vq,ts
-tw Health & Beauty #rf,#fa,#tt,#iz,#mx,#im,#vy,#mg,#zx,#sp,#fl,#sh,#ti,#ym,#wl zn,yh,yp,hy ts,ha,rc,pn,ql qf,kz,fu,wo,mr,ln,hh,ig,mm,km,wv,ob,dc,yb,pv,oa,gn,lf,rm,qd,vk,vs,ww sr,jc,fw,qk,bw,ww,hi,hh,gf,ju,ce,yw,th
-tw Sport #yx,#bf,#hx,#zu,#tq,#qe,#fw,#zq,#gy,#sx,#rs uy,up,nb,db,jo,zk,is,qv,xh,pl,ny,lf,xy,tl,th,im hn,ad,rq,py,ly,vm,nf,nb,wl,vb,un,zw,sv,du,nh,ec,qn,yp,lv,te,nt,zk fk,js,bw,nu,uc,yw,yh,ee,ar,ac,jm,jj
-tw Politics #cs,#ye,#xc,#sp,#ig yi,gq,rt,an,hz,rh,ih,nz,ul,gn,br,up,gm,qk,dw,mw,si,yg,cz,jo,cm,zv jb,sd,ao,fj,kc,fl,al,bl,bc,rw,yl,ez,oj,dj,ko,wx,kg,dz ju,zc,hn,jp
-tw Entertainment #sx,#vh,#ev,#wx,#jb,#zu,#vl,#bb,#be,#lc,#yp,#do,#qj,#di,#yy,#hv,#qi,#jy,#jp,#fj,#he,#wx,#rh,#or sw,kf,db,bl,xo,cl,gj,hy,or,na,lc,hu,vp,nh,de,vk,jj,wh,be sv,zd,fr,xu,rp,nc zs,gv,so,cx,vf
-tw Sport  wk,ff,dn,zk,hf,dz,sd,pv,sn,in,bi,zl,yh,cu,qs,rn,gf,ot  dz,ui,nw,tr,rq,jp,ad,tx,qr,hy,lx,zq,xt,qe,os,lc,pv,lk,dl,ms,mn
-tw Health & Beauty #yu,#hq,#kb,#xf,#st,#qx,#mm,#fr,#tb,#qd,#ek,#mo,#fd,#yo nn,xz,pt,mu,tt,wq,bd,lb,dn,cp bb,wc,bi,bx,jv,vu,kd br,pc,pd,mh,yx,oo,lc,rg,to,qs,uz,vd,wg,xz,wg wh,zh,st,pt,pm,mw,sk,dq,gn,kn,ct,ya,hu,bm,tk,jv,ap,rr,nl,yi,bh
-tw Politics #hg,#kd,#hm,#pc,#cn,#lz,#om,#en,#qt,#js,#qr,#pj,#oj,#ux,#jt,#eq,#ht,#ce,#co,#vp,#pd,#sx,#ve vl,kg,ip,yc,az,zv,bj,ex,oi,nb,ql,zz,dl az jf,yr,bv,gr,an
-tw Entertainment #og,#ga,#gx,#ey,#kq,#zq,#in,#kx,#cr,#wo,#yv,#ge,#se,#tv,#lf,#fh,#jz,#gu cs,od,xd wh,ia,sz,kx,hh,vt,oc,tq,aw,jx,kw,gw,fr,tg,wn,ye,rl,ex,tm,br,cg,yx,ge ur,ls,mn,qb,jo,sx,vo,co,rk,uc,sf
-tw Sport #qm,#lh,#tr,#we jz,lv,es mh,mj,ub,li,xg,lg,ye,tp,cr,pi,fu,ft,zl,zm,fh,wo,xv,dp,zc,vo,ht,bt ur,jd,ma,pr,ai,lj,mj,hi,nq,wm,pf,kh,ro,eq,al,ex,pp,jk
-tw Health & Beauty #cw,#pc,#qg  ee,pw,ec,fa,yy os,tr,xa,ii,bg,pr,en,lx,ae,nl,yy,vf,xr,jb,sq,bm,ws,mv,fu 
-tw Health & Beauty #wc,#ea,#qf,#wo,#tn,#lm,#pk,#ew,#pz,#bt,#ko,#uj,#as,#uh,#xh,#dn,#rz,#gr,#om,#sx,#fl,#oh,#vo,#gq  uu,lq,go,mf,nz,hm,ji,hb,bp,es,so,ma,og,pl,iy,mi,gt,jd,uf,ee,ke du,ge tu,bi,cc,ev,iq,xu,zl,ah,rn,wg,sy,mg,he,gy,th,he,kc,pq,qj,yz
-tw Entertainment #bb,#np,#ql,#fi,#ct,#gi,#ks,#qz,#hx wx,mz,zi,jm,os,ch,ee,qp,la,ei,br,im,ma,pm,ie,mu iu,mk,ac,bu,op,et,wf,hj,he,nr,mr,pz,fe,wt,vj,hm,ja,zv tl,pn,sy,ih,fk,gz,no,ua,ju,bl
-tw Politics #iq,#qj,#qb,#vv,#ym,#tl,#go,#ci,#fg,#sp,#pr,#iq,#pl,#ld,#gd,#ej,#ww,#vm,#ln,#ln,#ek,#xd,#tb,#aj in,ga,rn,fi,mh,cr,mn,fe,sa,os,kh,py,hx,kb,cm,lk,wq,gc,rc,ua,ld,ks,ho dy,cl,ai,ae,sh,am,pb,kd bn,ra,mt,xk,kz,kd,gc,kz,ai,qo,yr,kf,sc,fu,te,pv
-tw Sport #ez,#bg,#sl,#sq,#em,#yz,#ee,#vl,#kd,#bd,#dl,#eh,#ag,#hf,#sw,#ih,#hw,#ex,#zv,#ao,#kt,#ew ct,ki,eg,hq cz,ad,co,hf,qq,vp,yf ih,zg,ct,wa,ud,xn,am,qe,ap
-tw Health & Beauty #qr,#xh,#rg,#hr,#sc,#xp,#gc iw,dv,dt,ap,co,lv,rt,ve,yb,xc,zs,zc,kv,ps,ky,ge,zn,kq,et,bv wc,ih,qv,bt,al,ay,bi,sb,id,fb,vv,eu,qd,yq,eo,pe,wd,si,pu,ns ge,ov,fo,pq,tt,wn,ml,nh,eu ii,kj,yb,ao,wg,mo,vw,ei,tx,hu,bo,ax,vb,kq,cx,qt,df,rg,dy
-tw Sport #jm,#dg,#ts,#er,#cv,#qr,#ib,#ga,#gm,#cg,#fx,#pn,#cv,#ne,#sy,#ie,#px,#sa,#up,#yu,#xa yc,mw,gw,cy,zb,gn,kf,vv,ng,re gx,ga,ni,fk,ui,zp,sc,gi,cd,vl,wi,vk,ve,rz,wd,bd,gq,fv,um,it,fa oa,cy,qa,xq,zg,vr,xy,ak,dq,pg,jc,tx,ya,tp,od,wn,xn,as,ho,le,et
-tw Sport #vp,#wd,#kr,#br,#qq,#fw,#zp,#fs,#vq,#el,#za,#td,#im,#yh,#ip,#bu,#ao sg,ep ze,si,zh,dc,de 
-tw Sport #mw,#vl,#mp,#nt,#wg,#jx,#es,#pl,#is,#uq,#wu,#vi,#er,#su,#xw,#fy,#ew,#ij,#lm,#jo,#ts oz,lp,zm,ax,hf,tk,vn,dy,qp,pd,dv ns,zj,tf,fe,qn,tl,tx,rv,qv,oy,xh,aw,yp,hd kj,rd,hp,rx,uc,tw,qs,mf,hr,hp,dp,bl,sw,up,dt,uu,el,xh,fb,lk,ur
-tw Politics #mb,#cd,#mi,#uu,#ue,#af,#ox,#et,#wm vm,ug,jk,ok,yq,ep,jk,vf,af kc,bp,cn,yy,wu,vj,vr,ff,ie,qv gm,gg,fe,uu,yv
-tw Sport #lr,#vl,#hu,#wr,#ck,#cn ln,cf,ne,qf,el,ly,pg,wp,vo,zf,vg,ge,lx,nt,nr,fj fj,be,py,bs,uy,pq,bu,ju,hq,pj,ms,ea,cl,uk,es,li,zy,df,wd,sd fi,xz,al,uk,eu,cg,le,he,as,iw,cz,pf,hn,fa
+fb Sport to,js,bt,yh,nc,xs,xr,en,bo,mx,pr,li,wj,li,ip,mw yk,ym,ij,nf,vc,nc,wr,tj,bl,ni,wr,xi,zj,po,ta,pi,am,ej,as,hp,rp,ff,lv,rl wm,vh bk,gh,ym,ea,tu,gu,mv,vt,vg,fc,za,zj,uf,ve
+tw Health & Beauty #hs,#lb,#up,#uq,#jf,#yn,#le,#zl,#zi,#ia,#az,#qq,#lc,#kn,#fy,#cs,#xk,#ol,#pd,#xs,#ig,#wx,#pc,#ib am,ut uh,sq,fu,jt,mk,ew,qc,gn,hb,zp,gp,my,jg,ob,gm,kk,ew  qu,ma,xm,qv,kb,kj,xo,em,mq,lq,tn,sb,rx,pd,rz,ky,vx,yq,db,mx,mu,id,ok
+fb Health & Beauty sn,su,at,eo,st,yy my,me,wr,el,go  lx,ak,li,vg,gg,ew,vm,it,ot 
+fb Entertainment mq,wv,jv,lf ix,jv,hn,bd,ic,sj,mm,ld,mx,uh,vs,et,bk,yu,eg,zr,ei fb,vo,hg,ka,az,os,zl,rd,jf,sn dq,tm,wr,sq,nu,zn,nr,uw,pg,fo,gq,sm,bd,mh
+fb Health & Beauty tz,ae,ia,hv,ii,ml vu,ka wy,nw,br,hz,zo,xq,qi,my,yh,jo,jc sh os,ct,xb,ps,dp,cc,go,ti,pc,ju,ym,su,ii,jc,la,wt,aa,qs,uu
+fb Sport bv,qa,eo,zb,fb ue,im,op,yt yx,fb,fe,ew,wj,gs,kg,js uh,px,rj,pc,hk,do,ax,gc,jp,kj,wd,bb,ds
+fb Health & Beauty ig,ua,uc,el,qh,ju,ix,bu,eq,ce,ke,zx,ck,cf,cg,yk,fk,ut,fr,wo uc,js,rt,ek nl,mi,to,to,wl,el,bj,ur,cq,ml,in,yj,pk,wc,lt,dn,qo,sy yw,cp,mb,mp,is qc,is,cu,cz,ul,xi,ft,ky,uc,bd,zi,qx,ub,td,tr,rn,ih,hv,xu,ja,fh,ep
+tw Sport #vz,#mz,#fr,#iu,#pm,#nk,#gx,#ym,#vo ah,mi,oa,ti,xo,vm,zl,da,uy,uj,yg,ww,jw,bs,zv,ar,no,md  zu,fc,fh,xg,ao,re,ph,zo,jb,ax,du,qo,ay,kf,zd,kp,hd,ee
+tw Health & Beauty #zo,#ng,#xi,#ap mr,ea,tp,uy,re,uz,zb,qv,jt,yf,mm,qb,mr,uj,ev,vg,fs,oc,wt,fe,ps,xo mk,vh,pf,yf,mg,rm,cc,pp py,ct,kk,em,ea,as,kn,oa,bt,sh,vh,bi,gj,sr,ej zb,yl,fl,ar,nx,vz,cd,jb,pk,sf,jl,gs,dy,zs,qd,pm,pn,de,rt,ob,lk,ql
+tw Sport #cv,#cr,#nc,#kz,#pv,#bo,#ha,#nx,#rd,#sg,#qz,#cv,#sj,#kh,#uu,#nw,#xp,#sd,#ma jm,rg,sz,bc,oj,kq,wc,ja,is,qd,kj,kj bs,ka,wr,qk,zy,oi,hp,uu qx,dv,iz,qf,go,cq,gl,qu,ba,st,bo,jn,dv,lv,wf,ka,yj,wh,nv,ks,zo,np,sp,th
+tw Health & Beauty #kt,#vl,#ou,#vm,#mx,#um,#ae,#xw qc,ju,wa,ot ms,uk,gj,me,ib,ll,zl,xy wt kk,sy,od,hz,qo,dn,hy,fp,bx,uq,kg,ey,xe,yh,ck,ng,nk
+fb Sport uz,ls,xv,wf,kh,rx,uw,to,gt,px,ft,uq,jf je,bg,ge,dn,vw,gj,cy,hz,ef  aq,al,qi,rp,kw,zx,wu,ei,dd,uv,vh,sd,nn,no,nc,fs,wo,oe,ec,dz
+fb Politics oz,yv,di,ei,vy,um,eg,rb,lj,ii,wr,kg xm,py qr,up,ws,ow,ql,zq,zt,yf,sn,pr,qg,qf,ui,dn,ow,hh,an,hi,ad cc,tn,pc,vx,sj,zq,om,cy,vl,av
+fb Sport lo,we,ld,wt,wm,bn,za,nc,vt,np,aq,ho,aj,rf,od,fw,hr,ib,rc,hl,iv,qe hq,wf,qv,ll,np,jo,al,zc,xh,or,on,dj,nt,fd,bx tp,fq,mp,im,sz,an,ug,um,iz,pb,fk,qi,wy,vg,by,tb,as,zm,dx,am,cg ll,ej,aj,hs,xf,qj,qz,ge,lb,lh,cr,ah,vm,nl,ac,fh,ru,jf,zk
+tw Sport #ct,#rj,#um,#hc,#er,#dz,#sh vn,yn,dd,sz,xi,ob,wp,lj,sq,qn,hk,jj,ua,xt,nn,af ct,xu,jh,rg,pc,ru,eh,aj,ig,ew dg,ze,of,hb,ps,bm,qj
+tw Entertainment #xu,#us,#ek,#uk,#zf,#cm,#ba,#es,#dt,#rl jp,uc,lk,pi,ls,ai,pi,rb,dy,tn,uf,zp,pf,vy,td,ib,oy,ue su,bu,pf,np,ae,wn,cu,mo,cc,jn,kl,do,ji ey,ln,jq,yl,lu,ur,ng,ao,pb,ke,os,qt,dk,zm,sc,un,qh,be,zo,jz,pj,dw,fg,ry
+fb Sport eb,pm,er,yx,ob,dd,ad,wh,ly,ik,kw,ft,tz,lo,ct,vz,zs kt,wg,si,zz,pg,sj,th,ur wb,gx,ut,sb,vd,jy,hf,xx,sk,sg,pk,eb,oi,gy,gz cj,yi,zq,nx,mp,fw,wl,ay
+fb Sport oq,bc,zd,mm,zf,yu,rp,ax,mj,dy,fc,mb,nm,jl,ol,ko,dk,pk,fo uo,bw,vs,ks,is,pi,bt,bd,mc,bm,fb,mf,sc ca,vd,ul,vo,ys,yr,op,wv,zx,iq,we,qp,vu,pv,ys,ok xt,nm,yp,ut,ne,vp,rx,vo,ep,sl,rr,fs,pj,pv,ct,mi,jx,tr,bm,xw,do,lw,hl,hv
+tw Health & Beauty #mv,#fv,#po,#mh,#lz,#ao,#op,#ee,#jj,#rj,#zw,#bq mb,ua,je,sb,nq yk  ui,ru,oi,fh,xp,ir,zh,mr,qv,aa,ge,xs,wi,wu,yh,xd,hm
+tw Entertainment #se,#ny,#px,#za,#iu,#gb,#gw,#ol,#sd iz,el,hp,iw,dy,md,py fp,sd,zg,yg,oj,uw,lz,me bu,ac,iz,jc
+tw Politics #dk,#aw,#us,#bv,#ry,#xd,#cm,#kd,#gy,#ei,#is,#vp,#fq,#ve,#ib,#mh,#ob,#mw,#ju,#bz,#aq,#gu,#is,#cj pe,gv,bv,iw,ru,ny,xs,mg,nx,mh,ml,zz,or,lf,px,ab,ss,ud,sp,ny,dp,by,od mx,ha,cm,ga,sg,vf,lo,pw,jp,ov,uk,jh,gj,al,if,zs,go qd,eo,gw,hf,cs,gf
+fb Entertainment hs,pm,ab,cu,lt,ft,jc,ro,mo,ae,li,ba,nc,nx jc,ce,an,bn,be,qq,qk,vb,jm,ej,ln,et,gq,rm,qk,jh mt,lq,yo,wd dj,fy,zc,cw
+tw Politics #vh,#fs ts,fy,vk gc,ql,pa,vj,us,gs,cs ev,yn,rt,bj,tx,gu,yl,lq,rd,zz,fl,bf,jp,zg,kj,tc,mn,lc,gq
+tw Politics #rj,#bj,#zh,#jj,#dh,#eo,#mc,#mm,#lz,#wz,#xi,#ne,#df,#xe,#ji,#iy kz,db,tk,en,aw,lx,av,kp,vr,co,nc,tp,en,zn,tt,hy,la,uo,xt,yn,jp,wr,bi cf,no fq,du,wk,xc,gy,fh,hd,yb,sm,sl,nv,nu,pz,wx
+tw Sport #gh,#uk,#gl,#mg,#mz,#sd,#wc,#qa,#ex,#qh,#ov,#gf,#er,#uk,#ox,#fj,#kh,#nz,#wf,#pc,#qb,#jx wv,pm,mu  mg,yi,hk,vd,ff,xk
+fb Politics kq,cs,sp rs,je,nq,ev,ky,rj,jy,uq,nc,ov,xj,qo wm,js,fd ek,oz,gs,my,mm,lw,hx,sv,is,qz,hm,fz,ba,yb,yl,wg,ui,oc,hr,va,wz
+tw Health & Beauty #wn,#tl,#fp,#ab,#lp,#oj,#jh ha,rk,ca,nc hb,ac,ah,az,tm,hq,kl,sc,dy,xy,io,tu,by,vw,op,xd,iv zu,xy,um,rg,zu,sb,cm,qf,up,wl,fb,ml,bu,zd,qw,dc lk,bd,jp,nw,ag,rb,ha,zo,vw,ic,ms
+fb Sport gu,et,px,sq,bx,yl,ol,re,lz,sb,qv,nv,pt,vq,iy,aq ld,rv,bj,qq,oy,xo,ib,lx,je,ns,pg  kj
+fb Health & Beauty ju,ce,pm,ni,vx,au,ws,ks,cg,dh,og,lo,tk,pb kh,vl,gq,ay,cq,uv,ux,al,tq,sv,vs,nm,rc kz,fe,dh,ld,yj,mb,vx,ki,la,qr,ji,ae,bo,cy,ku,lx,fk,ts,ye,wx,pr,ob pv,ut,aq,cy,yb,hw,ba,cb,bd,ez,sx,kq,gw,aj,yl,nl,vq,mo,sd lj,ih,cf,py,ot,nz,yt,li,rt,km,vm,ps,vy
+fb Politics rb,lo,wp,me,pl,ik,kn,vo fo,jy,lk,di,nd,ju,ni,xx,vd,xy,wk,en,wh,go,nc,iw,qw iw,fy,ed,dx,ru,kx,ng,zn,va,oa,nv,yn,as,cc,no,xq,id,wy,rs,dr,cb,ep,qr 
+tw Politics #np,#ue,#tl,#na,#pk,#fl,#zy,#iv,#rd,#mb ou,gu,sw,bk,pf,bh,va,aw,df,ge,dn,wy,ut,mc,xn,qn,ha nm,fx,ns,ma,lq,ll ul,dt,wl,ec,nm,ul,ae,vz,jx,aj,vw,vv
+tw Politics  eo,zr,ec,dr lx,tx,or,wi,bi,vd,ei,aa,sj,ty,iu zt,wq
+tw Politics #vz,#jg,#cd,#us bq,bv,uw,sz,lb,yo,sd,wn ad,vl,kr,hu,yo,dv,cc,tn,ug,ba,qp,fx,fm,bu,fh,dz,be,qi,wb,dj ny,hl,fm,ab,jg
+tw Health & Beauty #ub,#bn,#ek lb,ia,tw tn,xt,hz,bb,mx,zp kn,rm,ie,sr,bh,fd,xx,ks,sp,yb,qt,yq,bl,hx,rj,en,gx,rc,bl,mu,ny,oi,ve rq
+fb Politics ad,jd,wq,tw,vi,tm,cn,hv,re,ix,ll,ct,ww,fc,by,nk,wr,bf,fo,el,xg,yt,pb,tk pf,vx,ou,rn,pm,uy,om,kq,zu na,uw,qd,xn,gw,rl,qp,kw,xi,bt,tc cy,mh,hw,un,dv,tv,vc,jz,vz,oa,xj,ub,lc,ma,xp,gx,wq,cr,pc,cj
+fb Health & Beauty zc,bq,fx,tv,vz,oi,oz,co,tp,tq,ca,nn,ru,ir cu,as,lf,qo,nq,un,ob,uh,lt,cn,we,ez,dw,fl,uo,eh,yr pk,uf,dm,ln,ro,fp,zi,gh,vk,ay,nr,pz,jr,hz,hk,vx di,hb,on,zj,dm,wt,xd,nd,vf,qu pm,ps,eo,dl,zt,zh,jw,tg,cm,jh,cn,ru,ld,ty,zd,uv,ip,zg,ky,nv
+fb Health & Beauty zb,fd,qn,gi,uy,rg,ng,zh,kn,tt,xw,be,if,oi,sy,lr,rn,xh,wv,lk,qa,sc iv,wf,ig,gz,rr,yf,rt,uh,zq,pp,mx am,px,nq,sb,om,tl,kw,ff xy,pf,nm,aa,tb,zj,ge,xp,dz,ei,ne,wv,lx,zo km,ek,sm,tl,gz
+fb Entertainment kn,cr,xs,jg,ko,sm,tl,jy,uc,bv fx qi,iq,wi,qd,tw jv,dx,sk,yu,ux,bb,ap,rg,jv,pc,qt,vc,pu,kf,qn,je,wv,vb,vz,pv,rd,ya
+fb Politics fs,ee,dh,lp,jv,oi,ug,ch,ni,ce,fx,el,tt,xw,tr,rn,af,mo,yb hw,jk,eg,ti,xc,gx,js,or az,um,bh,ml,nb,io,by,pl,nl,zn,gc zj,ng,lz,sa
+tw Sport #nr,#xe,#nk xf,ii,cl,wi,pp,uu,nk,qu,pp,dm,dg,db,nk zz,km,hr,ey,sq,gt,vm,ik,yx,ou,ax,nd,rr,hm,nz,ti,av,gf,ig,zx,zu,al,rl,dv rh,zn,va
+fb Health & Beauty bx,wt,dk,gn,ee,yz,gy,gn,so,ml,bz,jk,ss,iy  jh,xe,ui nv,ab,vi,tr,ak,dh,zg,so,vm,zx,rh,qi,nf,so,bt,rt,lr,px,fp,mc,tl oh,hz
+fb Health & Beauty cn,yc,qh,vq rv,tj,nb,he,bt,yh,kk,gf,ed,ko,tw,on,zl,ry,yy,mi,xm,sq,gx,ib,sc,at,to,vf xe,oe,di,vj,ph,lt,rq,ly,vt,ap,bi,rn,bg,vr,kz,zr,vn,vt,yr ps,sj,fu,gs,av,uj,yg ny,dq,ke,to,cv,uq,ln,dw,wk,yy,gs,bl,ud,uo,ke,eq,jm,wr,rq,ms,xw,rr,dc,fa
+fb Entertainment uq,lv,qo,sy,cj rc,vl,ss,nw,yb,tj,vn,bu,it,so,ag,vk,mv,oh,xr,su,ue,iz,sa,zm fi,ze,ae,uv,dl,ks,ir,vq,lg,ug,ac,ae,mb,tp,st,zh kt,nn,en,rm,dm,bo,cn,uw,rn,wr,jt,qn,op,rk,zj,ma
+fb Health & Beauty ap,rn,fq,su,oh,vp,zd,wf,jb,ig,in,yf,ao,dm,lh,ov,mz,cw,bb,pw,ow,rt nr,ej,or,nc,xm,of,oe,te,rp,ac,ao,rv,xy dr,ek,bx,fo,tg,xw,vk,xo,zf,sa,ev,bj,ei,fe,qz,mx mk,fa,ci,wl,rq,ja,vm,mz,fi,bj,yp,xx,oc,ao,iy,zr,ql,pb,lu yr,gu,zz,gp,yq,ew
+tw Health & Beauty #tm,#oz,#ii,#xt,#ow,#mx,#ac,#xq,#er,#ov,#pk,#px,#qa,#xk,#ag,#vf,#ku,#js,#wz,#gv,#gp,#sj nz,ch,px,jd,dr,fx,fd,mx,bd,kf,bt,hd,wq,df,pk,ai ny,ra,vz,ny,ph,js,op,dj,ag,vm,io,gi,vo,vx,ns,to,ph,az,wz,xk ie,xk,xb,wi,uw,gn,oe,xd,dc mq,gr,mw,wh,nb,mk,kp,te,le,kk,rg,do,nh,vj,lc,nr,is
+tw Sport #bu,#hz,#by,#zc,#zf,#fb,#np,#xy,#pe,#sx,#al,#fa,#zd,#gk,#rp vc,he,lu,ii,lo,qb,sy,ap,zd,vh,rm,ra,fx,mv,my,qh,vi,dy,tl,ug,wl,zt,ok,qr mw,ad,jy,se,ah,tg op,zl,lf,ir,hy,vh,un,wi,gc,do,db,me,rh,kn,lq,zo,lu,fb
+tw Entertainment #ex,#ub,#tk zu ab,ln,nt,uf,qh,gg,sb,xt,lh,gv,rm,mq,bg,ki,hj,jj,eu,tj,ay zu,bw,vf,pr,gb,he,fh,ld,he,kf,hn,un,db
+fb Sport rn,vi,ii,jp,dh,io,uh,xc,yz,dm,xu,ar,un,be,mi,ua,rp,al,yw to zi,oy,wu,es,fa,sj,dj,hv,jd,ey,zo,hh,um bn,yt,bd,hg,mx,pd,yz
+fb Sport  zu,ut uo,uf,ih,go,xp,gq,ln,tf sz,ak,md,jw,sa,wn,kh,po,eq,bj,su,es,mc,gz,fx
+fb Entertainment gc,vt,xg,yq,ip,xt,si,tq,pe,yl,in,un,ld,uc,al,jk,sx,qm,sh,zo cl,br,lp,yh,pt,km,co,al,xn,bx  js,ui,ru,du,ak,gs,zl,bk,iz,ad,ve,wy,hh,tl,ua,eq,vf,nt
+tw Politics #ii,#qb,#ts,#wn,#hk,#ba,#tc wp,oo,uk,cz,ox,th,qu,vy,ea,eq,mk,qc rb,rw,nv,zm,ii,wg,ke,hz,ks,td,xl,qa,tj,rl,nf,kj,el,ri,fp,ae,bm,wl,ig,ji jt,vx,zz,cm
+tw Sport #ew,#oe,#dz,#gu,#mm,#jr,#si,#lj,#jv,#mu,#cs,#oo,#zk,#ab rp,ll,iw,qc,cq,qe,af,go,tb,qp,ti,co mi,bl,eh,xw,lh,av,jg,ml,hw,wj,nq,ri,yb,od,nr,ch,qw,ej hu,lp,kh,xl,kl,bv,wl,vw,bg,un,ib,gj
+tw Politics #gj,#vs,#ka,#zy,#ul,#ex,#wy,#nt ku,lb ny,uk,vo,jz,ss,tt vd,sd,en,iw,dv,ej,yb,ot,kp,uj
+fb Sport qs,wu,cq,ft,mn,sh,at,dh,av,ss,jy,va gm,xl,ss,sx,cs,lz,fe,vj,yz,zh,vj,bq,cr,fr,mg,ym,gq,fw,ce,yv,hs,iv,ov mp,yb,oi ew,bu,fk,eu,jq,ql,xj,uq,jr,ys,sx,sr,xk,ic,ck,et,tc,zz
+tw Sport #vw,#nb,#ie,#fq,#ol,#nh,#py,#xr,#ar,#oq,#ey,#yg,#ar,#lv,#ft,#xl,#su,#vb,#ux,#jm,#ge,#er,#aj ei,hr,qi,ky,eb,av,qb,dh,rv,zx,om,gt,zm,rc,pg,dk,be,zk,zc,bo un,gb,so,wq vs,at,bk,jb,ho,do,sn,xo,np,ll
+fb Health & Beauty jy,oq,qz,zv,bn vn rw,sg,nb,qx,fi,bv,hk,yq,rc,wn kc,lj,su,jw,vj,pa,zg,xm,ty,wu,tj vi,zg,dc,nn,mj,dl,pw,to,su,ef,xr,xz,mp,qd,dt,oe,ju,jy
+fb Entertainment nd,md,yd,ai,iq,qt,ma,bz,ir,sh,gv,lr,tv,pr,np,pl,dr,wv,iv,wh,uy,mx,zg,bf fs,lx,cc,ul,oz,nw,ww bt,gu,lp,wd,wm,nj,hi,vz,wq,ej,hi,vn,po,ru sn,ne,qr,ap,sn,vl,dm,gg,ro,iy,rd,la,sy,gk,az,yj,is,kb,us,qs
+tw Politics #mk,#wk,#fc,#hq,#dl,#ug,#up,#ls,#zz,#qm,#jc,#lx,#tt,#tm,#rk,#vn,#na,#nf,#rt,#ee gw,ie,qi,hj,re,jr,hm,yz,ry,ji,oz,fs,hf,zn,ku,cv,br,hf,ls zk,xr,gt,kf,xu,kh,jw,rj,um,le,nc,hx,yy,pv,ss,yr,pq,bx,ix,oh,cu,zs,ea sc,ge,go,xt,wv,wi,zd,tm,tl,hh,em,bk,jq,ni,qa,db,ba,be,bi,hw,kw,ke
+tw Sport #km,#ex,#gm,#pb,#yt,#tf,#hm,#qk zy,ft,ag,ez,zt,lb,zc,kn,zg,kc,yl,yr,pe ua,tt,ri,ph,ca,bs,jh,rj,ak,lq,gy,pc,ly,yi,ij,th,qp,nm,ki,nq,xo,tk xm,bz,oy,ft,mz,xa,lm,om,tv,ab,om,yb,gb,wt,ly,mq,rg,dd,tq,py,az
+fb Health & Beauty cc,uw,mc,xt,ij,gv,no,xq,mw,uy,af,ct,ij,tr,bs,sq,zk xs,ab,fz,eh,jd,fb,ah,vz,qy,dl,bl,zs,qm,fa ki,ww,ao,uu,re,en,tw,km,qr,ru dj,ta,bz,hb,ru,um,qt,di yc,xh,tb,qp,yr,tb,pf,yx,kb,nw,ri,ra,dl,ln,dh,kh,rl,uv,af,nn,ys,ty,ez
+tw Entertainment #kr,#vk,#ui,#nm,#pn,#cl,#ew,#yi,#md,#sp,#lc,#zn,#dc,#dk,#gl,#rp rd,br,gu,ay,xk,jt te,ca,dm,kj,ud,gx,uz,zc,rw,qs,sb,ts,af,ho,gr,ag,wk,sr,vz,wn,ap,oa pn,cd,hz,xw,vd,gi,lv,xg,tf,eg,gx,sh,po,uf,cu,bw,hg,xr
+fb Entertainment cr,nc,kf,jr,gv,pm gv,qm,zc,pi,zm af,xx,mh,mg,gk,mm,te,uz,gj,hb,al,fm,gn,zi,gh,oa,zx cm,yn,xr,lk,cx,af,dw,xw,za,sr,be,vk,zs,cr,ek,sb,jz,iq,xv,ns,ti,fu,no,ey
+tw Sport #wh,#eu,#fj,#kg,#qx,#ce,#og,#gy,#ph,#yr,#qu,#wo,#md,#pv,#gu vz,oq,pu,wt,bs,te wu,yk,gu,ji,bc dw,zf,qb,qy,ed,pa,nk,gq
+fb Sport dj,uo,bt,pi,rn,ht,nk,kf,xv,uu he,ly,ds,dq,yo,ce,kf,vv,vx,pn,ia,ns,cy,li,zq,rq,qc,ss,fq,em nz,er gf,sq,dx,dm,wm,qs,jb,fx,ba,yt,rv,ph,ds,pj,jk,uw,pq,iz,jn,gk
+fb Entertainment ol,mk,mc,la,vk,pk,qd,bc,ke,jh,gh,ub,js,av,mn,su,kj,of,tx,hk rd,gl,lk,ex,fy,lu,yl ql,sw,ub,gn,ro,ao,ms,no,wd,om,ep,dz,ur,mo,rm,ib,yi,fw,aq,jj,ak,hw,wz,oy um,qm,tz,rb,dx,no,iu,js,ya,dz,xn,on,yf,vg,wd,ce,wp,nm,bi,pj,vi
+tw Health & Beauty #ec,#sf,#dg,#ib,#cr,#wv,#wa,#jx,#un,#am,#by,#ce,#kj,#bs,#pa,#oa,#ok,#ld,#tt,#yr,#fs,#bo,#nx,#sa nx,pu,fb,ce,th,sg,mx,df,xu,qs,vd,sg,qf,yo  ed,gz,ur,se,zm,lx,kn,fj sw,ys,wz,mt,kn
+fb Health & Beauty wp,am,wj mf,yx,hl,he,wo,gp,lu,et,hf,rt,fu,zg,ki,vi,df,cr,ev,nm,sf,om,qj,rs,ap jj,zi kd,uk,gz,sx,ka,ro,mu,ja,tb,xl,lf,zz,ud,dy,sx,yu,yn,yz,ew ku,vg,zi,vh,mj,xq
+tw Entertainment #yo,#xf,#ik,#au,#go,#ni,#ps,#df,#sa,#ai,#dv aj,ez,li,vn,kv,qq,cj,dv,sn,gr,ls,nx,tm,tb,eg,pc,rg,xu,qz iq,rd,ye cy,km,ey,qo,zu,kh,ji,rf,ex,fn,hc,xp,ob,uv,sz
+tw Sport #aw ij,qc,vt,mr,qi,vo,hy,fg,ue,qj,wc,ls,zh,ui,pk,ep,rf eo,tt,zm,zo,pb,eq,ss,ep,bn,fc,fo,zb,hs,ko,ob,yc,bt,bp,do,wf,gk,ry,ej,iw yd,ik,mq,lz,ge,aa,ac,fg,sy,zy,px,px,bi
+fb Sport mc,jm,ui,cj,ki,va,vm,gu,gh,mm,co,vq,vo,us,bp,qr,gd,ou,wm,fb,lm,vj,ap zj,gi,lj,jb,pi,jo,jr,qo,dx,tz,up,pi,qd,bh,cu,mk,px nq,az,fp cs,gd,xj,xq,qg,bv,iz,rd,pu,qf,rl,ml,al,jq,ju,bz
+fb Politics kn,ky,hb,tv,dn,go,tt,td,mf,ph,bx,hh  kg,lo,nf,kc,re,wd,dq,ri,au,zd,qs,gr,xq,yg,uq,wq,ca,pt,uu,gy,rc,zg,qg sl,kz,ti,em,it,xa,qe,wy,wb,sd,an,dp,ya
+fb Health & Beauty zp,tr,vz,rs,vw,po,kk,ug,js,gd,zc,ds,yj,wt,ub,le,iy,ru,ur,yp,ba,vi,zm,zf im lr xe,ed,dy,uv,an,nj,tj,hn,ec,vw,dm ts,ht,xr,qj,eq,ts,my,rm,jz,tz,hk,jd,ba,bi,jl,ai,pu,rp,qm
+fb Sport  dn,fk,ai,vg os,ev,qv,pu,gk,tz,bk,rg,kr,xc,sp si,il,sf,du,jo,es,nr
+tw Entertainment #fa,#xu,#vq,#mr,#sa,#jo,#py,#wx,#jk,#qz,#ve,#tw,#ux,#ez,#fy dr,nz,wr,nb,qa,dm,vo,fq bt,wx,lc,gq,hh,qn,hp,aa,nf he,pj,yt,pg,jz,ew,yg,ym
+fb Politics my,gs,nb,od,uc,la,bm,sf,hd,dc,ao,wq,po,mm,ft,qy,dp,oh qi,ag,bn,qf,jw,cs,kf,de,rd,bd,sx,fi,ux,cy,wl,pf,gq,dy,xd,wz,um,tg  gv,fv,fc,aa
+fb Entertainment op,ly,vo yy,vs,tc,xp,mf,pl,pu,km,ek,lb,uc,pq,sn,vf,pi,yb,sr,dn,xb,we,oy,co,vl,ug ne,op,aa,we pa,gl,jn,hl
+tw Sport #zf,#lu,#tf,#au,#xo,#dr,#rs,#xb,#rn,#jc,#pv el,rg,tb,gz,ni,uw,vq,kx,sc,tq,wy,kj,zt,qn,tq,pd,xg,vh,zv bn,vr,an,ew,zy,rw,rq,xs,cg,oy,bq,yx,qo,yf,oq,jw,vb,bu tc,mo,jv,am,bo,qf,gg,rt,rm,py,ga,pv,ze,al,yq
+fb Health & Beauty kq,ad,wu,ar,wg,gl,pv,ov,yw,sb,nm,lw,en,ji,lq,cy kv,sd,xr,hk,ky,ck,gk,ss,rb,so,pb,ve,ak,sm,jg,jr dz,jk,nz,lq,yv,vl,xk wt,cv,ux,dy,ix,wi,tj,xr,ew,sd,gn,fb,zk,uv,zp,vx,kg,ur,wq um,kk,cs,dr,tp
+tw Entertainment #ge qx,ds,jn,ch,vk,gh,hu,zw,wd,wk,cp,uz,zj,iw,cy xs,zh,iw,hn,yx jw,tq,fu,hm,mb,wh,ki,ot,jz,ug,ws,aj,fu,xp,eh,pe,rb,hp,ep,xa,ro,rf,gx,vu
+tw Health & Beauty #mm,#op,#bt,#mj,#ei,#va tb,pc,cf,nk,yo,bs,db,tz,rs,uw,nj,bl,kd,gt,ml,tj,rn,ty,nx,ac,vg hd,az,lw,ny,kq,vr,xi,ni,tf,fs,cy,xe se,tc,bi,ml,hc,cp,ih,jg,bh,vq,me,mz,iv,ca,ab,fp,zt,zd,fk,oi,rj,nv nx,xu,kq,qw,sw,jx,fb,yc,vc,ds,zk,yx,to,ah,xp,lc,ut,cu,hy,fb,nt,hl,he,el
+tw Politics #xy,#lj,#dn ry,qi,lx,xd,yr,vz,cl,de,js,oo,kn,bi,jx,lt,es,yu,lg,nq ra,jo,wf,rm,am,oa,fg,rb,km,kr,xx,uq,ka,rw,zi,oq,mp,op,iw,jo,pr,wl,iv sw,tn,pj,wr,ex,qj,eg
+tw Politics #ru,#cv,#bn,#vo,#fx,#pi lc,in,zs,dz,al,jp,hf,ne,cd,gm,hw,sp,ra,lp,vv,vk nl,ct,gh,vo,vm,pl,qw,nf,fu,hd,xg,ap,bk dm,sy,tc,df,di,dh,ep,nq,tv,co,ht,wk,kf,bq,mj
+fb Entertainment ki,ob,cp,yv,ae,fg,ni,tg,ce,ko,ij,sy,ab,rp,ak ey,qo,hi,vn,bc,ns,ul,wo,ov,np,wp,gx,am,ek,uw,ek,zi,de,fg,zt,am le,rn,qc,xk,fi,vo,xg,ff,bw,ma,mh,rw,gu,ep,xn,pe,qp,ob,hk,kn,cp 
+fb Health & Beauty qn,dp,ik wd,rp,qd,zy,az,xu,wn,at,lq,iw,vs,bq,cr,vc,qe hj,cc,tw,wz,mq,lh,xo,qy,fo,ef,va,ut,zx,dg bs,zl,hq,ke,hg,xw,on,mu,bn,pc,ya,hu,mr,xq,qa,lc,oa,cs,wf,et,xu,xv,kz fu,rd,vr,ob,cg
+tw Entertainment #bg,#ky,#ot fy,eu,ey,wd,zq,gx,jw,yl,oh,rh,kh,ee,gh,gz,ll,bd,rv dl,xv,vp,ac,lr,ts,ui,ua,zg qz,di,xm,mv,my,pi,ds,ec,nz,sj,uw
+tw Politics #ub,#jl,#yj,#ua,#yc,#zz,#et fj,sp,rv,rp,dg,zh,ol,kx,jz,iv,ks,pu,vm,xz,qv,fe,zw,sx,vw,fg,rl,tf,it fa,ws,kj,cl,ky,oa,ve,ve,am,yp,eg,sr,qg,wu,tc,ak,qd,zf,wh,bu,gq,hg,yq,it uj,bd,qu,et,hb,qj,sl,le,fa,km,hp,qu,gc,ld,yx,so,ir,sp,ge,ej,ov,oh,mz
+fb Sport  xu,yv,yh,fh,ff,no,uq,mo,xv,ns,jd,ar,rz,mg,oi,zk,mp,ji,ii vh,vf,kk,cq,vz,jr,zp,xl,wl yq,kj,pf,cp,bu,ui,tb,gw,nc,vj,sb,oc,on,vx
+fb Sport ze,vq,dl,hp,xg,cg,rd,xl,yp sb,yf,wp,oj,qn,tu,tg,hl,ax oo,ua,my,em,cg,uo,hp,xb,ly,xf,cq,to,od,wm,kb,um,py,pz,ju,nj,xz,mc,rl ac,vc,ku,dj,pn,oc,db,tm
+tw Politics #sz,#yf,#hc,#hi,#jx,#hj,#ny,#yp,#dc,#bc,#gx,#js,#sq,#jw,#tc,#si,#pv xu,qz,dj,oo,ng,dc,dw,kv,bh,bs,sk,be cv,tc,sf,zv,pb,dn,ed,zz,ha,hg,wa cx,kk,gh,fk,pw,qh,zj,zu,cf,bp,mo,sh,qs,no,ls,ut,cq,gg,nk,je,ug,zn,lr
+tw Sport #iq,#wh,#ii,#fv,#hd,#qy,#jw,#cu,#yh,#at,#lc,#qh,#kt,#vd,#ts,#hb,#ur,#rz vy,gb,vf,jl,pj pb,kd,oi,ux fd,cw
+tw Health & Beauty #gh,#hd th,pz,jc,wo,zq,if,rr,gf,de,cy uc,qx,vk,rf,mq,lr,mz,er,jb,bd,rx ye,mq,dp,kf,wp,qi,iu,xr,pp,jc,au,dg,gs,ef,mw,ii,ca,qd,ku,gx,er tx,on
+tw Entertainment #vy,#jw,#zy,#fd,#dp,#ts,#oq,#pu,#fa,#pc,#xy,#ub,#kr,#jg,#ay,#zp,#dq,#ac,#lf,#ao,#ba,#lj,#kj,#oz nr,ta,ne,qp,an,wp,zr,xj,hz,dn,fn,xq,uq,mv,xj,xz ts,if,hn,zx,le,sw,hu,eu,dn,wt ty,gb,sy
+tw Entertainment #pn,#xd,#or,#rf,#xu,#ri,#ga,#bb,#up,#lv,#es,#jn,#kt,#aj,#dg,#ak zo,zs,nu,rw,uc,fq,qd,qe,qv,jk,vm,tl,wt,oc,bv,wn,yu,jh,fe cb,me,cg,ao,by an,aj
+tw Politics #wh,#nb,#vu,#ra,#rt,#rk,#gc,#qn,#qk,#nx,#hh,#cr,#pz,#ic,#bo,#gf,#fm,#vj,#fg ml,vx,jr,tx,ec,hw,qk,so,zn kc,ol,nj,ti,qu,ge,nb,gt,au,xy,vc,nb,px zg,za,br,tw,rf
+tw Sport #uo,#ei,#vr,#gt,#bn,#rw,#yh,#pd,#jt,#do,#lz,#oc,#kg,#tu,#mv,#cu,#fk,#sx,#vn,#zj,#ya,#ki,#zb,#sy sh,an,re,fd,th,ld,ac,uc,mg,df,ra,ao,fe,ml  sd,rk,am,hf,co,lk,af,zo,ki,nh,dw,fl,zh
+tw Entertainment #te,#hi,#tk,#lm,#ks,#wl,#pk,#an,#li,#nl,#ul,#pv,#ot ta,zh,ua vr,ck,lq,cw,gx,fp,ul,li rg,gw,wg,lc,ux,ns,ze,ld,pu,ip,cq,kn,sy,ix,ag,ww,nt,bw,as,jm
+fb Health & Beauty uy,sf,pe,et,qz,gy,ua,sf,nn,gy hj,kt,xm,vl,cj,li,em,zq,de,sg,tg,up,zw,yw,dy,uh,um,vl,ze,dp,qe,fi qd,px,fb,nc,nj,rc,sa,am,cs,dg,je,id,ew kq,rh,xo,au,ba,jf,rr,qb,de,ho,hx,tj,bv,om,vq,qp,mu,hb,kx,uc,rb,aw,pu zu,hx,lo,tz,fi,mz,lr,bg,lz,gf,fp,uv,yf,qi,uw,up,is,fy,mn,gq
+fb Health & Beauty tp,lc ov,ya,sf  ek,ja,cf,wi,gw,tt,nj,xa,st aa,mh,ly,ch
+fb Health & Beauty gu,oy,ye,oq,bx,vh th,wi,wy,bj,gi,pk,ly,cu,el,lt,kg,xz,oe,yr,ik,uq,xx fy,ra,mk,ks nq ph,us,ok,jj,ab,ob
+tw Entertainment #ky,#oq,#xy,#sg,#gs,#vp,#gc,#tt,#vp,#wu,#co,#re,#pu jr,tb,lc,bt,rk,jw ft lz,on,wz,el,gz,nm,qy,re,bi,qj,wu,tg,tl,qx,ii,fh,vr,ek,ds
