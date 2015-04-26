@@ -25,12 +25,12 @@
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
     <script language="javascript">
         //inisialisasi List kategori
-        <% List<String> topics = asList("Health & Beauty", "Entertainment", "Sport", "Politics");
+        <% List<String> topics = asList("Health & Beauty", "Entertainment", "Sport", "Tech");
           List< List<String> > topicCategories = asList(
         asList("Obat", "Perawatan Tubuh", "Perawatan Wajah","Fashion"),
         asList("Musik", "Movies", "TV","Celebrity"),
         asList("Bola", "Raket", "Atlet"),
-        asList("Daerah","Nasional","Internasional")
+        asList("Internet","Gadget","Science")
     );%>
         <% String a = request.getParameter("modeapp") ;
             out.write(a);
@@ -68,8 +68,6 @@
     </head>
     <body>
        
-    
-        
     <div class="TopicArt"> 
        <img alt="" src="image/Maskot-Act-Beauty2.png" 
             style="height: 500px; position:relative;" id="image" />

@@ -1,6 +1,6 @@
 body
 {
-    background-image: url('../image/bg-kaypoh.png');
+    background: #FFAA87 url('../image/bg-kaypoh.png');
     background-repeat: no-repeat; 
     background-position: center center; 
     background-attachment: fixed; 
