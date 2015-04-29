@@ -1,6 +1,15 @@
+<<<<<<< HEAD
 Manifest-Version: 1.0
 Archiver-Version: Plexus Archiver
 Created-By: Apache Maven
 Built-By: yusuke
 Build-Jdk: 1.7.0_65
 
+=======
+Manifest-Version: 1.0
+Archiver-Version: Plexus Archiver
+Created-By: Apache Maven
+Built-By: yusuke
+Build-Jdk: 1.7.0_65
+
+>>>>>>> 18c36eaf14f735c7f9df0adb4548e65099390378
