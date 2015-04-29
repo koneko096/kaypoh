@@ -45,6 +45,8 @@
          
         <%CO=0;%>
         document.getElementById("NamaKeyword").innerHTML = "Keyword <%= topics.get(CO)%>";
+        document.getElementById("hiddentopic").value = "<%=topics.get(CO)%>";
+
         <% for(int i=0;i<Kategori.size();i++) {%>
                 document.getElementById("<%= "NamaK" + i%>").innerHTML = "Kategori <%= Kategori.get(i)%>";
         <%}%> 
@@ -56,6 +58,7 @@
         document.body.style.background = "#50FF54 url('image/bg-kaypoh.png') repeat 0% 0%";
         <%CO=1;%>
         document.getElementById("NamaKeyword").innerHTML = "Keyword <%= topics.get(CO)%>";
+        document.getElementById("hiddentopic").value = "<%=topics.get(CO)%>";
         <%Kategori= topicCategories.get(CO); %>
         <% for(int i=0;i<Kategori.size();i++) {%>
                 document.getElementById("<%= "NamaK" + i%>").innerHTML = "Kategori <%= Kategori.get(i)%>";
@@ -67,6 +70,7 @@
         document.body.style.background = "#6D9987 url('image/bg-kaypoh.png') repeat 0% 0%";
         <%CO=2;%>
         document.getElementById("NamaKeyword").innerHTML = "Keyword <%= topics.get(CO)%>";
+        document.getElementById("hiddentopic").value = "<%=topics.get(CO)%>";
         <%Kategori= topicCategories.get(CO); %>
         <% for(int i=0;i<Kategori.size();i++) {%>
                 document.getElementById("<%= "NamaK" + i%>").innerHTML = "Kategori <%= Kategori.get(i)%>";
@@ -78,6 +82,7 @@
         document.body.style.background = "#2CCC8A url('image/bg-kaypoh.png') repeat 0% 0%";
         <%CO=3;%>
         document.getElementById("NamaKeyword").innerHTML = "Keyword <%= topics.get(CO)%>";
+        document.getElementById("hiddentopic").value = "<%=topics.get(CO)%>";
         <%Kategori= topicCategories.get(CO); %>
         <% for(int i=0;i<Kategori.size();i++) {%>
                 document.getElementById("<%= "NamaK" + i%>").innerHTML = "Kategori <%= Kategori.get(i)%>";
@@ -106,7 +111,7 @@
                 <div class="form-group">
                     <label for="inputCategory" id="NamaKeyword" class="col-sm-2 control-label">Keyword <%=topics.get(CO)%></label>
                     <div class="col-sm-11">
-                        <input type="hidden" name="topic" value="<%=topics.get(CO)%>"/>
+                        <input id="hiddentopic" type="hidden" name="topic" value="<%=topics.get(CO)%>"/>
                         <input type="text" name="keyword" class="form-control"  placeholder="#hiburan">
                     </div>
                 </div>
