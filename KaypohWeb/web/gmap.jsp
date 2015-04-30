@@ -10,7 +10,7 @@
   <head>
     <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
     <meta charset="utf-8">
-    <title>Google Maps JavaScript API v3 Example: Geocoding Simple</title>
+    <title>Google Maps</title>
     <link href="https://developers.google.com/maps/documentation/javascript/examples/default.css" rel="stylesheet">
     <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
     <script>

@@ -14,7 +14,7 @@
          <link rel="stylesheet" type="text/css" href="css/hover-min.css">
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.6.1/jquery.min.js"></script>
        
-        <title>HOME Page</title>
+        <title>Kaypoh - HOME</title>
     </head>
     <body>
         <div class="row">
@@ -37,8 +37,9 @@
             <div class="col-md-6 col-md-offset-3"><!--img src="image/Maskot-Act-Sport.png"width="100%"></div-->
         </div>
         </div>
-        
-        
-    <script src="bootstrap/js/bootstrap.min.js" />
+        <form action="index11.html">
+            <input class="btn" type="button" value="About" style="position:absolute;bottom:30px;">
+        </form>    
+        <script src="bootstrap/js/bootstrap.min.js" />
     </body>
 </html>

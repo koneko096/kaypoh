@@ -14,7 +14,7 @@
         <link href='http://fonts.googleapis.com/css?family=Oswald:400,300' rel='stylesheet' type='text/css'>
 		<meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
-        <title>Accordion with CSS3</title>
+        <title>The Result</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
         <meta name="description" content="Accordion with CSS3" />
         <meta name="keywords" content="accordion, css3, sibling selector, radio buttons, input, pseudo class" />

@@ -18,7 +18,7 @@
 <html>
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-        <title>Search</title>
+        <title>Kaypoh - Search</title>
         <link rel="stylesheet" media="all" href="bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.css" />
         <link rel="stylesheet" type="text/css" href="style.css">
@@ -41,7 +41,7 @@
     function Beauty() 
     {
         document.getElementById("image").src = "image/Maskot-Act-Beauty2.png";
-         document.body.style.background = "#FF81FA url('image/bg-kaypoh.png') repeat 0% 0%";
+        document.body.style.background = "#FF81FA url('image/bg-kaypoh.png') repeat 0% 0%";
          
         <%CO=0;%>
         document.getElementById("NamaKeyword").innerHTML = "Keyword <%= topics.get(CO)%>";
@@ -101,11 +101,13 @@
         <input id="Button2" class="btn btn-default" accept=""type="button" value="Entertainment" onclick="Entertainment()" />&nbsp;&nbsp;
         <input id="Button3" class="btn btn-default" type="button" value="Sport" onclick="Sport()" />&nbsp;&nbsp;
         <input id="Button4" class="btn btn-default" type="button" value="Tech" onclick="Tech()" />&nbsp;&nbsp;
-    <form action="index11.html">
-            <input type="submit" value="About">
+        <form action="index11.html">
+            <input class="btn" type="submit" value="About">
         </form>
         </p>
     </div>
+    <img src="image/Kaypohtwit.png" style="position:absolute;left:30px;width:200px;"/>
+    <img src="images/KaypohTitlev1.1.png" style="position:absolute;right:30px;"/>
         <div class = "searchform" >
             <form class="form-horizontal" action="index2.jsp" method="GET">
                 <div class="form-group">
