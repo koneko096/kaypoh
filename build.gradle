@@ -1,0 +1,18 @@
+group 'org.kaypoh'
+version '1.0-DEMO'
+
+apply plugin: 'java'
+apply plugin: 'war'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+    compile 'org.facebook4j:facebook4j-core:2.2.2'
+    compile 'org.twitter4j:twitter4j-core:4.0.3'
+    testCompile 'junit:junit:4.12'
+}

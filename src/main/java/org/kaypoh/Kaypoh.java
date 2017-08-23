@@ -3,11 +3,13 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kaypoh;
+package org.kaypoh;
 
 import java.util.*;
 import static java.util.Arrays.asList;
-import StringMatching.*;
+import org.kaypoh.StringMatching.*;
+import org.kaypoh.crawler.FacebookCrawler;
+import org.kaypoh.crawler.TwitterCrawler;
 
 /**
  * Kaypoh
@@ -23,7 +25,7 @@ public class Kaypoh {
     );
     public List<List<String> > username = null;
     private List<List<String> > searchResult = null;
-    public List<List<String>> profpic=null;
+    public List<List<String>> profpic = null;
     /**
      * Constructor
      * input arguments as params : 
@@ -63,14 +65,10 @@ public class Kaypoh {
         
         /* Get contents from API request */
         if (args[0].equalsIgnoreCase("tw")) {
-            twitter4j.conf.ConfigurationBuilder config;
-            config = new twitter4j.conf.ConfigurationBuilder();
-            TwitterCrawler x = new TwitterCrawler(config);
+            TwitterCrawler x = new TwitterCrawler();
             x.Call(QueryGenerator(args[3], 0), contents, users, picture);
         } else {
-            facebook4j.conf.ConfigurationBuilder config;
-            config = new facebook4j.conf.ConfigurationBuilder();
-            FacebookCrawler x = new FacebookCrawler(config);
+            FacebookCrawler x = new FacebookCrawler();
             x.Call(QueryGenerator(args[3], 1), contents, users);
         }
 

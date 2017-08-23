@@ -3,10 +3,10 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package kaypoh;
+package org.kaypoh;
 
-import java.util.*;
-import kaypoh.Kaypoh;
+import java.util.ArrayList;
+import java.util.List;
 
 /**
  * Driver class
