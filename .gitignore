@@ -71,3 +71,9 @@ fabric.properties
 .idea/
 
 # End of https://www.gitignore.io/api/intellij+all
+
+/KaypohWeb/build/
+/KaypohWeb/nbproject/private/
+/KaypohWeb/dist/
+/dist/
+
