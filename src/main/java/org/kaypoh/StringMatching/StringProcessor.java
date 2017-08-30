@@ -18,11 +18,11 @@ public interface StringProcessor {
      * @param text
      * @return
      */
-    public boolean search(String text);
+    boolean search(String text);
     
     /**
      * Procedure setPattern
      * @param pat 
      */
-    public void setPattern(String pat);
+    void setPattern(String pat);
 }

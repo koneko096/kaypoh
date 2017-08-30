@@ -6,10 +6,10 @@
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <%@page import="java.util.*"%>
-<%@page import="kaypoh.FacebookCrawler" %>
-<%@page import="kaypoh.TwitterCrawler"%>
-<%@page import="kaypoh.Kaypoh"%>
-<%@page import="StringMatching.KnuthMorrisPratt"%>
+<%@page import="org.kaypoh.crawler.FacebookCrawler" %>
+<%@page import="org.kaypoh.crawler.TwitterCrawler"%>
+<%@page import="org.kaypoh.Kaypoh"%>
+<%@page import="org.kaypoh.StringMatching.KnuthMorrisPratt"%>
 <%@page import="static java.util.Arrays.asList"%>
 <%@page import="java.util.List" %>
 <%@page import="java.util.LinkedList" %>
